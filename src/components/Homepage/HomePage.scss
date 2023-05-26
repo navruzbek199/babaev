@@ -1,0 +1,104 @@
+.home {
+    background-image: url('../../assets/images/background.jpg');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .wrapperx {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    .box {
+        position: absolute;
+        top: -100px;
+        // bottom: -80px;
+        right: 15%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 76px;
+        line-height: 93px;
+        padding: 0 0 30px 0;
+        // color: rgba(250, 250, 250, 0.2);
+        // border: 1px solid rgba(250, 250, 250, 0.2);
+    }
+
+    .boxes {
+        position: relative;
+    }
+
+    .logo {
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        z-index: 99;
+    }
+
+    .main {
+        display: flex;
+        align-items: center;
+
+        .left {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+
+            p {
+                color: #fff;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 59px;
+            }
+
+            h1 {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 76px;
+                line-height: 93px;
+                color: #FFFFFF;
+            }
+
+            .btn {
+                background: #D9D9D9;
+                border-radius: 30px;
+                width: 130px;
+                margin-right: 20px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                text-align: center;
+
+                color: #1B1B1B;
+            }
+
+            .yellow {
+                background: #FFC131;
+                border-radius: 30px;
+                width: 130px;
+            }
+        }
+
+        .right {
+            position: absolute;
+            bottom: 0%;
+            right: 10%;
+
+            img {
+                object-fit: contain;
+                height: 700px;
+            }
+        }
+
+    }
+
+}
