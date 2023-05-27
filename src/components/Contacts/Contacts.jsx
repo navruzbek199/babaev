@@ -55,7 +55,7 @@ function Contacts() {
                             <InputMask
                                 type="text"
                                 name='number'
-                                placeholder="Номер телефона "
+                                placeholder="Номер телефона*"
                                 // onChange={(e) => setChangephone(e.target.value)}
                                 required
                                 mask="+\9\9\8\(99) 999-99-99"

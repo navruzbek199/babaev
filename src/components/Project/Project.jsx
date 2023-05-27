@@ -5,6 +5,9 @@ import juba from '../../assets/images/A1 1.png'
 import alzar from '../../assets/images/A9 1.png'
 import ziyorat from '../../assets/images/A6 1.png'
 import logo from '../../assets/images/logo-full.svg'
+import ProjectCarousel from '../ProjectCarousel/ProjectCarousel'
+
+
 function Project() {
     return (
         <div className='project'>
@@ -15,8 +18,12 @@ function Project() {
                 <div className="title">
                     <h2>Project</h2>
                 </div>
-                <div className="row">
-                    <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                <div className="media_Project">
+
+                <ProjectCarousel />
+                </div>
+                <div className="row second_cards">
+                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div className="card-wrapper">
                             <div className="card">
                                 <div className="main-title">
@@ -27,7 +34,7 @@ function Project() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div className="card-wrapper">
                             <div className="card">
                                 <div className="main-title">
@@ -38,7 +45,7 @@ function Project() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div className="card-wrapper">
                             <div className="card">
                                 <div className="main-title">
@@ -49,7 +56,7 @@ function Project() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div className="card-wrapper">
                             <div className="card">
                                 <div className="main-title">
@@ -61,8 +68,8 @@ function Project() {
                         </div>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                <div className="row second_cards">
+                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div className="card-wrapper">
                             <div className="card">
                                 <div className="main-title">
@@ -73,7 +80,7 @@ function Project() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div className="card-wrapper">
                             <div className="card">
                                 <div className="main-title">
@@ -84,7 +91,7 @@ function Project() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div className="card-wrapper">
                             <div className="card">
                                 <div className="main-title">
@@ -95,7 +102,7 @@ function Project() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div className="card-wrapper">
                             <div className="card">
                                 <div className="main-title">

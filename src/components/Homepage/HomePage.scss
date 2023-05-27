@@ -102,3 +102,62 @@
     }
 
 }
+
+
+@media screen and (max-width:1278px) {
+    .home {
+        .main {
+    
+            .right {
+                position: absolute;
+                bottom: 0%;
+                right: 10%;
+    
+                img {
+                    object-fit: contain;
+                    height: 600px;
+                }
+            }
+    
+        }
+    
+    }
+}
+@media screen and (max-width:1131px) {
+    .home {
+        .main {
+    
+            .right {
+                position: absolute;
+                bottom: 0%;
+                right: 0%;
+    
+                img {
+                    object-fit: contain;
+                    height: 500px;
+                }
+            }
+    
+        }
+    
+    }
+}
+@media screen and (max-width:1024px) {
+    .home {
+        .main {
+    
+            .right {
+                position: absolute;
+                bottom: 0%;
+                right: 0%;
+    
+                img {
+                    object-fit: contain;
+                    height: 400px;
+                }
+            }
+    
+        }
+    
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f8fcb446.css",
+    "main.js": "/static/js/main.aecce864.js",
+    "static/media/image 1.png": "/static/media/image 1.50505df9f19338d4a917.png",
+    "static/media/background-2.jpg": "/static/media/background-2.64037595d2b5972bdb68.jpg",
+    "static/media/background.jpg": "/static/media/background.97e6bbfbd1da67946734.jpg",
+    "static/media/logo-full.svg": "/static/media/logo-full.d2a2e0f49e1824d8c6ac437a4ee18eec.svg",
+    "static/media/A9 1.png": "/static/media/A9 1.3249da1f55d0246d1a54.png",
+    "static/media/A1 1.png": "/static/media/A1 1.efff8681f69ed2d92213.png",
+    "static/media/astrolab tizim 1.png": "/static/media/astrolab tizim 1.e40cc56dcd8846274616.png",
+    "static/media/octicon_location-16.svg": "/static/media/octicon_location-16.86572daded2aa50f7f52b56bb9864d98.svg",
+    "index.html": "/index.html",
+    "static/media/carbon_phone.svg": "/static/media/carbon_phone.d9d39bd1f9db6b1652f8a5533421af8a.svg",
+    "static/media/Group.svg": "/static/media/Group.87c637298aa2c0bb3072722db53d913a.svg",
+    "static/media/Group (1).svg": "/static/media/Group (1).b19344eca0d8e17c8cc10176b11e64db.svg",
+    "main.f8fcb446.css.map": "/static/css/main.f8fcb446.css.map",
+    "main.aecce864.js.map": "/static/js/main.aecce864.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8fcb446.css",
+    "static/js/main.aecce864.js"
+  ]
+}

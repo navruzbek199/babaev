@@ -79,3 +79,14 @@
     }
     
 }
+.media_Project{
+    display: none;
+}
+@media screen and (max-width:1024px) {
+    .second_cards{
+        display: none;
+    }
+    .media_Project{
+        display: block;
+    }
+}

@@ -141,6 +141,10 @@
                     font-size: 1rem;
                     color: #FAFAFA;
                     padding: 12px 0;
+                    &::placeholder{
+                        font-size: 1rem;
+                        color: #FAFAFA;
+                    }
                     &:focus{
                         border: none !important;
                         border-radius: none !important;
@@ -169,4 +173,46 @@
         }
     }
 
+}
+
+@media screen and (max-width:768px) {
+    .contacts {
+    
+        .contact_menu {
+            background: rgba(250, 250, 250, 0.2);
+            border: 1px solid #FAFAFA;
+            backdrop-filter: blur(40px);
+            border-radius: 30px;
+            min-height: 400px;
+            margin-top: 60px;
+    
+            .contact_menu_item {
+                display: flex;
+                align-items: center;
+                place-items: center;
+             
+    
+                li {
+                    padding: 17px 22px;
+                    max-width: 129px;
+                    height: 310px;
+                    display: grid;
+                  
+                
+                }
+            }
+    
+            form {
+                display: flex;
+                gap: 30px;
+                align-items: center;
+                justify-content: center;
+                max-width: 100%;
+                margin-top: 24px;
+              
+            }
+        }
+    
+    }
+    
 }

@@ -7,6 +7,7 @@ import Contacts from '../components/Contacts/Contacts'
 const FullPageScroll = () => {
         return (
                 <div>
+                 
                         <Fullpage>
                                 {/* <FullpageNavigation /> */}
                                 <FullPageSections >
@@ -18,6 +19,7 @@ const FullPageScroll = () => {
                                         </FullpageSection>
                                         <FullpageSection style={{ height: "100vh" }}>
                                                 <Project/>
+                                               
                                         </FullpageSection>
                                         <FullpageSection style={{ height: "100vh" }}>
                                                 <Contacts/>
