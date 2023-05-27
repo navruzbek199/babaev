@@ -6,6 +6,7 @@ import time from '../../assets/images/Group (1).svg'
 import email from '../../assets/images/Group.svg'
 import logo from '../../assets/images/logo-full.svg'
 import InputMask from 'react-input-mask'
+import { Parallax, ParallaxProvider } from 'react-scroll-parallax'
 function Contacts() {
     return (
         <div className='contacts'>
@@ -14,40 +15,52 @@ function Contacts() {
             </div>
             <div className="container">
                 <div className="title">
-                    <h2>Contacts</h2>
+                <ParallaxProvider>
+                    <Parallax speed={5}>      
+                        <h2 className='animate__animated animate__zoomIn animate__delay-3s'>Contacts</h2>
+                    </Parallax> 
+                </ParallaxProvider>
                 </div>
                 <div className="contact_menu">
                     <ul className="contact_menu_item">
                         <li>
                             <img src={phone} alt="" />
-                            <h4>PHONE</h4>
-                            <span>
-                                +998 901234567 <br />
-                                +998 907654321
-                            </span>
+                            <div className='text'>
+                                <h4>PHONE</h4>
+                                <span>
+                                    +998 901234567 <br />
+                                    +998 907654321
+                                </span>
+                            </div>
                         </li>
                         <li>
                             <img src={location} alt="" />
-                            <h4>LOCATION</h4>
-                            <span>
-                                49, Islam Karimov street, <br />
-                                Tashkent, Uzbekistan
-                            </span>
+                            <div className='text'>
+                                <h4>LOCATION</h4>
+                                <span>
+                                    49, Islam Karimov street, <br />
+                                    Tashkent, Uzbekistan
+                                </span>
+                            </div>
                         </li>
                         <li>
                             <img src={time} alt="" />
-                            <h4>WORK HOURS</h4>
-                            <span>
-                                Monday-Saturday <br />
-                                09:00-18:00
-                            </span>
+                            <div className='text'>
+                                <h4>WORK HOURS</h4>
+                                <span>
+                                    Monday-Saturday <br />
+                                    09:00-18:00
+                                </span>
+                            </div>
                         </li>
                         <li>
                             <img src={email} alt="" />
-                            <h4>EMAIL</h4>
-                            <span>
-                                info@astrolab.uz
-                            </span>
+                            <div className='text'>
+                                <h4>EMAIL</h4>
+                                <span>
+                                    info@astrolab.uz
+                                </span>
+                            </div>
                         </li>
                     </ul>
                     <form action="">

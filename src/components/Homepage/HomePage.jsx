@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
 import './HomePage.scss'
-import men from '../../assets/images/image 1.png'
+import men from '../../assets/images/2J6A2529 копия.png'
 import logo from '../../assets/images/logo-full.svg'
 import gsap from "gsap";
+import Mouse from '../../assets/images/mouse.svg'
 function HomePage() {
 
     useEffect(() => {
@@ -33,7 +34,7 @@ function HomePage() {
     })
     return (
         <div className="home" id="overflow">
-            <div className="logo">
+            <div className="logo animate__animated animate__slideInDown">
                     <img src={logo} alt='logo' />
             </div>
             <div className="wrapperx">
@@ -54,15 +55,18 @@ function HomePage() {
                 
                 <div className="main">
                     <div className="left">
-                        <p>Portfolio</p>
-                        <h1>Jurabek Babaev</h1>
-                        <button className='btn white'>Bio</button>
-                        <button className='btn yellow'>Projects</button>
+                        <p className='animate__animated animate__slideInLeft'>Portfolio</p>
+                        <h1 className='animate__animated animate__slideInLeft '>Jurabek Babaev</h1>
+                        <a href='#bio' className='btn white'>Bio</a>
+                        <a href='#project' className='btn yellow'>Projects</a>
                     </div>
-                    <div className="right">
+                    <div className="right animate__animated animate__slideInRight">
                         <img src={men} alt="babev" />
                     </div>
                 </div>
+            </div>
+            <div className="mouse">
+                <img src={Mouse} alt="" />
             </div>
         </div>
 

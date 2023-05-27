@@ -8,7 +8,7 @@ export default class ServiseCarousel extends Component {
 		const settings = {
 			dots: false,
 			infinite: true,
-      arrows:false,
+      		arrows:false,
 			slidesToShow: 3,
 			slidesToScroll: 1,
 			autoplay: true,
@@ -32,13 +32,28 @@ export default class ServiseCarousel extends Component {
             initialSlide: 1
           }
         },
-    
+		{
+			breakpoint: 600,
+			settings: {
+			  slidesToShow: 1,
+			  slidesToScroll: 1,
+			  initialSlide: 1
+			}
+		  },
+		  {
+			breakpoint: 400,
+			settings: {
+			  slidesToShow: 1,
+			  slidesToScroll: 1,
+			  initialSlide: 1
+			}
+		  },
       ]
 		};
 		return (
 			<div>
 				<Slider {...settings}>
-					<div className='card_box'>
+					<div className='card_box animate__animated animate__slideInLeft animate__delay-2s'>
 						<div className=''>
 							<div className='card-wrapper'>
 								<div className='card'>
@@ -59,7 +74,7 @@ export default class ServiseCarousel extends Component {
 						</div>
 					</div>
 
-					<div className='card_box'>
+					<div className='card_box animate__animated animate__slideInUp animate__delay-2s'>
 						<div className=''>
 							<div className='card-wrapper'>
 								<div className='card'>
@@ -80,7 +95,7 @@ export default class ServiseCarousel extends Component {
 						</div>
 					</div>
 
-					<div className='card_box'>
+					<div className='card_box animate__animated animate__slideInRight animate__delay-2s'>
 						<div className=''>
 							<div className='card-wrapper'>
 								<div className='card'>

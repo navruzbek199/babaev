@@ -93,7 +93,13 @@
                 }
 
                 &:last-child {
-                    border-top-right-radius: 30px;
+                    @media (max-width: 1900px) {
+                        border-top-right-radius: 30px;
+                    }
+                    @media (min-width: 768px) {
+                        border-radius: none;
+                    }
+                    border-radius: none;
                 }
 
                 &:hover {
@@ -175,9 +181,14 @@
 
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     .contacts {
-    
+        .title{
+            h2{
+                font-size: 40px;
+                line-height: 40px;
+            }
+        }
         .contact_menu {
             background: rgba(250, 250, 250, 0.2);
             border: 1px solid #FAFAFA;
@@ -185,21 +196,36 @@
             border-radius: 30px;
             min-height: 400px;
             margin-top: 60px;
-    
+            padding: 0 0 18px;
             .contact_menu_item {
-                display: flex;
+                display: grid;
                 align-items: center;
                 place-items: center;
-             
-    
+
                 li {
-                    padding: 17px 22px;
-                    max-width: 129px;
-                    height: 310px;
-                    display: grid;
-                  
-                
+                    padding: 17px;
+                    height: 100px;
+                    display: flex;
+                    place-items: center;
+                    align-items: center;
+                    border-radius: none !important;
+                    gap: 20px;
+                    .text{
+                        display: grid;
+                    }
+                    &:first-child{
+                        border-top-right-radius: 30px;
+                    }
+                    &:last-child{
+                        border: none !important;
+                        border-radius: 0;
+                    }
+                    img{
+                        margin: 0;
+                    }
                 }
+
+                
             }
     
             form {
@@ -209,7 +235,9 @@
                 justify-content: center;
                 max-width: 100%;
                 margin-top: 24px;
-              
+                .form_btn button{
+                    font-size: 14px;
+                }
             }
         }
     

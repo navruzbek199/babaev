@@ -100,8 +100,24 @@
         }
 
     }
+    .mouse {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        animation: mouseAnimation 3s infinite;
+    }
+    
+    @keyframes mouseAnimation {
+        0% {
+            transform: translateY(-30px);
+        }
+        100% {
+            transform: translateY(0px);
+        }
+    }
 
 }
+
 
 
 @media screen and (max-width:1278px) {
@@ -119,6 +135,9 @@
                 }
             }
     
+        }
+        .mouse{
+            display: none;
         }
     
     }
@@ -144,12 +163,40 @@
 }
 @media screen and (max-width:1024px) {
     .home {
+        .wrapperx {
+            display: none;
+        }
         .main {
     
             .right {
                 position: absolute;
                 bottom: 0%;
                 right: 0%;
+    
+                img {
+                    object-fit: contain;
+                    height: 400px;
+                }
+            }
+    
+        }
+    
+    }
+}
+@media screen and (max-width:500px) {
+    .home {
+        .wrapperx {
+            display: none;
+        }
+        .main {
+            .left{
+                top: 36%;
+                text-align: center;
+            }
+            .right {
+                position: absolute;
+                right: 20%;
+                transform: translateX(50%);
     
                 img {
                     object-fit: contain;

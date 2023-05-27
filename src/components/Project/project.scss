@@ -83,10 +83,22 @@
     display: none;
 }
 @media screen and (max-width:1024px) {
+    .project{
+        .title{
+            h2{
+                font-size: 40px;
+                line-height: 40px;
+            }
+        }
+    }
     .second_cards{
         display: none;
     }
     .media_Project{
         display: block;
+    }
+    .slick-slide img {
+        display: block;
+        width: 350px;
     }
 }
