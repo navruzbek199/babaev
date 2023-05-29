@@ -96,16 +96,19 @@
             }
         }
     }
-    .slick-slider{
+    .media_carousel{
         display: none;
-    }
+            }
 }
 @media screen and (max-width:1200px) {
     .service{
         .slick-slider{
             display: flex;
         }
-        .row{
+        .media_carousel{
+    display: block;
+        }
+        .desc{
             display: none;
         }
     }
@@ -120,6 +123,7 @@
         height: 500px;
     }
 }
+
 
 @media screen and (max-width:1024px) {
     .service{

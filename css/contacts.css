@@ -1,0 +1,215 @@
+.contacts {
+  background-image: url("../../assets/images/background-2.jpg");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+.contacts .logo {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  z-index: 99;
+}
+.contacts .title h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  text-align: center;
+  color: #FAFAFA;
+}
+.contacts .contact_menu {
+  background: rgba(250, 250, 250, 0.2);
+  border: 1px solid #FAFAFA;
+  backdrop-filter: blur(40px);
+  border-radius: 30px;
+  min-height: 400px;
+  margin-top: 60px;
+}
+.contacts .contact_menu .contact_menu_item {
+  display: flex;
+  align-items: center;
+  place-items: center;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.contacts .contact_menu .contact_menu_item li {
+  background: rgba(250, 250, 250, 0.1);
+  backdrop-filter: blur(40px);
+  padding: 27px 32px;
+  width: 100%;
+  height: 310px;
+  list-style: none;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.contacts .contact_menu .contact_menu_item li img {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+  margin-bottom: 18px;
+  opacity: 0.4;
+}
+.contacts .contact_menu .contact_menu_item li h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.75;
+  margin-bottom: 7px;
+}
+.contacts .contact_menu .contact_menu_item li span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.5;
+  margin-bottom: 0;
+}
+.contacts .contact_menu .contact_menu_item li:first-child {
+  border-top-left-radius: 30px;
+}
+.contacts .contact_menu .contact_menu_item li:last-child {
+  border-radius: none;
+}
+@media (max-width: 1900px) {
+  .contacts .contact_menu .contact_menu_item li:last-child {
+    border-top-right-radius: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .contacts .contact_menu .contact_menu_item li:last-child {
+    border-radius: none;
+  }
+}
+.contacts .contact_menu .contact_menu_item li:hover {
+  background: rgba(250, 250, 250, 0.05);
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(40px);
+  transition: all 0.3s ease-in;
+}
+.contacts .contact_menu .contact_menu_item li:hover h4 {
+  opacity: 1;
+}
+.contacts .contact_menu .contact_menu_item li:hover img {
+  opacity: 1;
+}
+.contacts .contact_menu form {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  margin-top: 24px;
+}
+.contacts .contact_menu form .form_control input {
+  color: rgba(0, 0, 0, 0.87);
+  cursor: text;
+  display: inline-flex;
+  position: relative;
+  font-size: 1rem;
+  box-sizing: border-box;
+  align-items: center;
+  font-weight: 400;
+  line-height: 1.1876em;
+  letter-spacing: 0.00938em;
+  border: none !important;
+  border-bottom: 1px solid #fff !important;
+  background-color: transparent;
+  font-size: 1rem;
+  color: #FAFAFA;
+  padding: 12px 0;
+}
+.contacts .contact_menu form .form_control input::placeholder {
+  font-size: 1rem;
+  color: #FAFAFA;
+}
+.contacts .contact_menu form .form_control input:focus {
+  border: none !important;
+  border-radius: none !important;
+  border-bottom: 1px solid #fff !important;
+  outline: none !important;
+}
+.contacts .contact_menu form .form_btn button {
+  background: #FFC131;
+  border-radius: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #1B1B1B;
+  padding: 12px 10px;
+  border: none;
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .contacts .title h2 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .contacts .contact_menu {
+    background: rgba(250, 250, 250, 0.2);
+    border: 1px solid #FAFAFA;
+    backdrop-filter: blur(40px);
+    border-radius: 30px;
+    min-height: 400px;
+    margin-top: 60px;
+    padding: 0 0 18px;
+  }
+  .contacts .contact_menu .contact_menu_item {
+    display: grid;
+    align-items: center;
+    place-items: center;
+  }
+  .contacts .contact_menu .contact_menu_item li {
+    padding: 17px;
+    height: 100px;
+    display: flex;
+    place-items: center;
+    align-items: center;
+    border-radius: none !important;
+    gap: 20px;
+  }
+  .contacts .contact_menu .contact_menu_item li .text {
+    display: grid;
+  }
+  .contacts .contact_menu .contact_menu_item li:first-child {
+    border-top-right-radius: 30px;
+  }
+  .contacts .contact_menu .contact_menu_item li:last-child {
+    border: none !important;
+    border-radius: 0;
+  }
+  .contacts .contact_menu .contact_menu_item li img {
+    margin: 0;
+  }
+  .contacts .contact_menu form {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 24px;
+  }
+  .contacts .contact_menu form .form_btn button {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=contacts.css.map */

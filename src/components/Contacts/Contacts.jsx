@@ -63,7 +63,7 @@ function Contacts() {
                             </div>
                         </li>
                     </ul>
-                    <form action="">
+                    {/* <form action="">
                         <div className="form_control">
                             <InputMask
                                 type="text"
@@ -82,7 +82,7 @@ function Contacts() {
                                 Отправить
                             </button>
                         </div>
-                    </form>
+                    </form> */}
                 </div>
             </div>
         </div>

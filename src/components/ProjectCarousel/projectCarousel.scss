@@ -81,16 +81,12 @@
     }
     
 }
-.slick-track{
-    width: 200px !important;
-}
-
 
 @media screen and (max-width:1024px) {
     .project{
         .card-wrapper_x{
           
-            max-width: 350px;
+            max-width: 300px !important;
             margin: 0 auto;
             
             }

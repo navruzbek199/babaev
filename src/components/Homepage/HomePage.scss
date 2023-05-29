@@ -210,6 +210,13 @@
                         margin-left: 0;
                         margin-right: 0;
                     }
+                    p{
+                        font-size: 20px;
+
+                    }
+                    h1{
+                        font-size: 25px;
+                    }
                 }
             }
             .right {
@@ -218,7 +225,8 @@
                 transform: translate(0%, 0%);
                 img {
                     object-fit: contain;
-                    height: 400px;
+
+                    height: 370px;
                     width: 100%;
                 }
             }
@@ -227,3 +235,4 @@
     
     }
 }
+

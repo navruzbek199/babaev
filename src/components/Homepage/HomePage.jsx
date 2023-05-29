@@ -55,7 +55,7 @@ function HomePage() {
                 
                 <div className="main">
                     <div className="left">
-                        <p className='animate__animated animate__slideInLeft'>Portfolio</p>
+                        <p className='animate__animated portfolio_pr animate__slideInLeft'>Portfolio</p>
                         <h1 className='animate__animated animate__slideInLeft '>Jurabek Babaev</h1>
                         {/* <div className="btn_home">
                             <a href='#bio' className='btn white'>Bio</a>

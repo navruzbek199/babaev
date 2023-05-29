@@ -22,8 +22,11 @@ function Service() {
                         </Parallax>
                     </ParallaxProvider>
                 </div>
+<div className="media_carousel">
+
                 <ServiseCarousel/>
-                <div className="row ">
+</div>
+                <div className="row desc ">
                     <div className="col-xl-3 col-lg-3">
                     <div className='card_box'>
                         <div className=''>
