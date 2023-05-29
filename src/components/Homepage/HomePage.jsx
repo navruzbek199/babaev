@@ -57,8 +57,10 @@ function HomePage() {
                     <div className="left">
                         <p className='animate__animated animate__slideInLeft'>Portfolio</p>
                         <h1 className='animate__animated animate__slideInLeft '>Jurabek Babaev</h1>
-                        <a href='#bio' className='btn white'>Bio</a>
-                        <a href='#project' className='btn yellow'>Projects</a>
+                        {/* <div className="btn_home">
+                            <a href='#bio' className='btn white'>Bio</a>
+                            <a href='#project' className='btn yellow'>Projects</a>
+                        </div> */}
                     </div>
                     <div className="right animate__animated animate__slideInRight">
                         <img src={men} alt="babev" />

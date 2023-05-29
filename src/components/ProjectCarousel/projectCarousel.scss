@@ -24,7 +24,7 @@
         
         color: #FAFAFA;
     }
-    .card-wrapper{
+    .card-wrapper_x{
         display: flex;
         justify-content: space-evenly;
         padding-top: 30px;
@@ -81,11 +81,14 @@
     }
     
 }
+.slick-track{
+    width: 200px !important;
+}
 
 
 @media screen and (max-width:1024px) {
     .project{
-        .card-wrapper{
+        .card-wrapper_x{
           
             max-width: 350px;
             margin: 0 auto;
@@ -96,7 +99,7 @@
 }
 @media screen and (max-width:998px) {
     .project{
-        .card-wrapper{
+        .card-wrappe_x{
           
             max-width: 300px;
             margin: 0 auto;
@@ -108,7 +111,7 @@
 
 @media screen and (max-width:768px) {
     .project{
-        .card-wrapper{
+        .card-wrapper_x{
           
             max-width: 360px;
             margin: 0 auto;
@@ -120,7 +123,7 @@
 
 @media screen and (max-width:450px) {
     .project{
-        .card-wrapper{
+        .card-wrapper_x{
             max-width: 350px;
             margin: 0 auto;
             
@@ -129,7 +132,7 @@
 }
 @media screen and (max-width:400px) {
     .project{
-        .card-wrapper{
+        .card-wrapper_x{
             max-width: 300px;
             margin: 0 auto;
             

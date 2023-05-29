@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import Slider from 'react-slick';
 import   './servise.scss';
 import service from '../../assets/images/astrolab tizim 1.png';
-
+import juba from '../../assets/images/A1 1.png'
+import alzar from '../../assets/images/A9 1.png'
+import ziyorat from '../../assets/images/A6 1.png'
+import renova from '../../assets/images/logo.png'
 export default class ServiseCarousel extends Component {
 	render() {
 		const settings = {
@@ -16,6 +19,14 @@ export default class ServiseCarousel extends Component {
 			autoplaySpeed: 2000,
 			cssEase: 'linear',
       responsive: [
+		{
+			breakpoint: 1200,
+			settings: {
+			  slidesToShow: 3,
+			  slidesToScroll: 1,
+			  initialSlide: 1
+			}
+		  },
         {
           breakpoint: 1024,
           settings: {
@@ -53,49 +64,45 @@ export default class ServiseCarousel extends Component {
 		return (
 			<div>
 				<Slider {...settings}>
-					<div className='card_box animate__animated animate__slideInLeft animate__delay-2s'>
+					<div className='card_box'>
 						<div className=''>
 							<div className='card-wrapper'>
 								<div className='card'>
 									<div className='main-title'>
-										<img src={service} alt='satrolab tizimi' />
+										<img src={ziyorat} alt='satrolab tizimi' />
 									</div>
-									<h3>IT loyihalar</h3>
+									<h3>Turizm loyihalar</h3>
 									<p>
 										Nazorat tizimi xodimlarning ishga kelish davomati va foydali
 										ish koeffitsiyentini hisoblashda juda samarali vosita!
 									</p>
 									<div className='buttons-wrapper'>
-										<button className='btn'>Info</button>
-										<button className='btn yellow '>Visit</button>
+										<a href='https://ziyorattour.uz/' className='btn yellow '>Visit</a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-
-					<div className='card_box animate__animated animate__slideInUp animate__delay-2s'>
+					<div className='card_box'>
 						<div className=''>
 							<div className='card-wrapper'>
 								<div className='card'>
 									<div className='main-title'>
-										<img src={service} alt='satrolab tizimi' />
+										<img src={juba} alt='satrolab tizimi' />
 									</div>
-									<h3>IT loyihalar</h3>
+									<h3>Marketing loyihalar</h3>
 									<p>
 										Nazorat tizimi xodimlarning ishga kelish davomati va foydali
 										ish koeffitsiyentini hisoblashda juda samarali vosita!
 									</p>
 									<div className='buttons-wrapper'>
-										<button className='btn'>Info</button>
-										<button className='btn yellow '>Visit</button>
+										<a href='https://juba.uz/' className='btn yellow '>Visit</a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-
-					<div className='card_box animate__animated animate__slideInRight animate__delay-2s'>
+					<div className='card_box'>
 						<div className=''>
 							<div className='card-wrapper'>
 								<div className='card'>
@@ -108,8 +115,26 @@ export default class ServiseCarousel extends Component {
 										ish koeffitsiyentini hisoblashda juda samarali vosita!
 									</p>
 									<div className='buttons-wrapper'>
-										<button className='btn'>Info</button>
-										<button className='btn yellow '>Visit</button>
+										<a href='https://tizim.astrolab.uz/' className='btn yellow '>Visit</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className='card_box'>
+						<div className=''>
+							<div className='card-wrapper'>
+								<div className='card'>
+									<div className='main-title'>
+										<img src={renova} alt='satrolab tizimi' />
+									</div>
+									<h3>Qurilish loyihalar</h3>
+									<p>
+										Nazorat tizimi xodimlarning ishga kelish davomati va foydali
+										ish koeffitsiyentini hisoblashda juda samarali vosita!
+									</p>
+									<div className='buttons-wrapper'>
+										<a href='https://renova.uz/' className='btn yellow '>Visit</a>
 									</div>
 								</div>
 							</div>

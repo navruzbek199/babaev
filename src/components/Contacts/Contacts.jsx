@@ -28,8 +28,8 @@ function Contacts() {
                             <div className='text'>
                                 <h4>PHONE</h4>
                                 <span>
-                                    +998 901234567 <br />
-                                    +998 907654321
+                                    +998 998466668 <br />
+                                    +998 990786192
                                 </span>
                             </div>
                         </li>

@@ -7,7 +7,9 @@ import ziyorat from '../../assets/images/A6 1.png'
 import logo from '../../assets/images/logo-full.svg'
 import ProjectCarousel from '../ProjectCarousel/ProjectCarousel'
 import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
-
+import Alzargar from '../../assets/images/A10.png'
+import renova from '../../assets/images/logo.png'
+import Gektr from '../../assets/images/Gektr.png'
 function Project() {
     return (
         <div className='project' id='project'>
@@ -24,7 +26,6 @@ function Project() {
             </div>
                    
                 <div className="media_Project">
-
                     <ProjectCarousel />
                 </div>
                 <div className="row second_cards">
@@ -45,7 +46,7 @@ function Project() {
                                 <div className="main-title">
                                     <img src={juba} alt="satrolab tizimi" />
                                 </div>
-                                <h3>Astrolab tizim</h3>
+                                <h3>Juba Marketing</h3>
                                 <button className='btn yellow '>Visit</button>
                             </div>
                         </div>
@@ -56,7 +57,7 @@ function Project() {
                                 <div className="main-title">
                                     <img src={alzar} alt="satrolab tizimi" />
                                 </div>
-                                <h3>Astrolab tizim</h3>
+                                <h3>Alzar</h3>
                                 <button className='btn yellow '>Visit</button>
                             </div>
                         </div>
@@ -67,7 +68,7 @@ function Project() {
                                 <div className="main-title">
                                     <img src={ziyorat} alt="satrolab tizimi" />
                                 </div>
-                                <h3>Astrolab tizim</h3>
+                                <h3>Ziyorat Turizm</h3>
                                 <button className='btn yellow '>Visit</button>
                             </div>
                         </div>
@@ -78,9 +79,9 @@ function Project() {
                         <div className="card-wrapper">
                             <div className="card">
                                 <div className="main-title">
-                                    <img src={tizim} alt="satrolab tizimi" />
+                                    <img src={Alzargar} alt="satrolab tizimi" />
                                 </div>
-                                <h3>Astrolab tizim</h3>
+                                <h3>Alzargar Market</h3>
                                 <button className='btn yellow '>Visit</button>
                             </div>
                         </div>
@@ -89,9 +90,9 @@ function Project() {
                         <div className="card-wrapper">
                             <div className="card">
                                 <div className="main-title">
-                                    <img src={juba} alt="satrolab tizimi" />
+                                    <img src={renova} alt="satrolab tizimi" />
                                 </div>
-                                <h3>Astrolab tizim</h3>
+                                <h3>Renovation</h3>
                                 <button className='btn yellow '>Visit</button>
                             </div>
                         </div>
@@ -100,9 +101,9 @@ function Project() {
                         <div className="card-wrapper">
                             <div className="card">
                                 <div className="main-title">
-                                    <img src={alzar} alt="satrolab tizimi" />
+                                    <img src={Gektr} alt="satrolab tizimi" />
                                 </div>
-                                <h3>Astrolab tizim</h3>
+                                <h3>Gekt Accounting</h3>
                                 <button className='btn yellow '>Visit</button>
                             </div>
                         </div>
