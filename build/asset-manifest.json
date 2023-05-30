@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.b1659df5.css",
-    "main.js": "/static/js/main.49222422.js",
+    "main.css": "/static/css/main.72c9d7ef.css",
+    "main.js": "/static/js/main.ebced919.js",
     "static/media/2J6A2529 копия.png": "/static/media/2J6A2529 копия.2a1c7b9e43c91672bc68.png",
     "static/media/background-2.jpg": "/static/media/background-2.64037595d2b5972bdb68.jpg",
     "static/media/background.jpg": "/static/media/background.97e6bbfbd1da67946734.jpg",
+    "static/media/logo juba.png": "/static/media/logo juba.38eb5cad4615e3388722.png",
     "static/media/Gektr.png": "/static/media/Gektr.ca7e2bfe108691c4dab0.png",
+    "static/media/travele.png": "/static/media/travele.0df545233a647b293fd4.png",
     "static/media/A10.png": "/static/media/A10.ae20e151006902a5e73d.png",
     "static/media/logo.png": "/static/media/logo.0efcbb7d2fef11146ca4.png",
     "static/media/logo-full.svg": "/static/media/logo-full.d2a2e0f49e1824d8c6ac437a4ee18eec.svg",
@@ -19,11 +21,11 @@
     "static/media/mouse.svg": "/static/media/mouse.2391b82f907a2557cb7930cbcec449cb.svg",
     "static/media/Group.svg": "/static/media/Group.87c637298aa2c0bb3072722db53d913a.svg",
     "static/media/Group (1).svg": "/static/media/Group (1).b19344eca0d8e17c8cc10176b11e64db.svg",
-    "main.b1659df5.css.map": "/static/css/main.b1659df5.css.map",
-    "main.49222422.js.map": "/static/js/main.49222422.js.map"
+    "main.72c9d7ef.css.map": "/static/css/main.72c9d7ef.css.map",
+    "main.ebced919.js.map": "/static/js/main.ebced919.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1659df5.css",
-    "static/js/main.49222422.js"
+    "static/css/main.72c9d7ef.css",
+    "static/js/main.ebced919.js"
   ]
 }
