@@ -226,6 +226,18 @@
                     img{
                         margin: 0;
                     }
+                    @media (max-width: 500px) {
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 30px;
+                        h4{
+                            text-align: right;
+                        }
+                        span{
+                            text-align: end;
+                        }
+                    }
                 }
 
                 

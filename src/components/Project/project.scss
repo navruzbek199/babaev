@@ -24,10 +24,22 @@
         
         color: #FAFAFA;
     }
+    .second_cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+        @media (max-width: 1024px) {
+            display: none;
+        }
+    }
     .card-wrapper{
         display: flex;
         justify-content: space-evenly;
         padding-top: 30px;
+        @media (max-width: 500px) {
+            padding-top: 0px;
+            
+        }
         .card{
             background: rgba(250, 250, 250, 0.3);
             border: 1px solid #FAFAFA;
@@ -37,6 +49,10 @@
             padding: 48px 0;
             align-items: center;
             width: 100%;
+            @media (max-width: 500px) {
+                    height: 245px;  
+                    padding: 20px 0;              
+            }
             .main-title{
                 border-radius: 30px;
                 height: 218px;
@@ -88,6 +104,7 @@
             h2{
                 font-size: 40px;
                 line-height: 40px;
+                margin-bottom: 30px;
             }
         }
     }

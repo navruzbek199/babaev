@@ -35,7 +35,9 @@ function HomePage() {
     return (
         <div className="home" id="overflow">
             <div className="logo animate__animated animate__slideInDown">
+                <a href="/">
                     <img src={logo} alt='logo' />
+                </a>
             </div>
             <div className="wrapperx">
                 <div className="boxes">

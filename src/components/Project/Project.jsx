@@ -14,7 +14,9 @@ function Project() {
     return (
         <div className='project' id='project'>
             <div className="logo">
-                <img src={logo} alt='logo' />
+                <a href="/">
+                    <img src={logo} alt='logo' />
+                </a>
             </div>
             <div className="container">
             <div className="title">
@@ -28,94 +30,92 @@ function Project() {
                 <div className="media_Project">
                     <ProjectCarousel />
                 </div>
-                <div className="row second_cards">
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                <div className="second_cards">
+                    <div className="item-card">
                         <div className="card-wrapper">
                             <div className="card">
                                 <div className="main-title">
                                     <img src={tizim} alt="satrolab tizimi" />
                                 </div>
                                 <h3>Astrolab tizim</h3>
-                                <button className='btn yellow '>Visit</button>
+                                <a href='https://tizim.astrolab.uz/' className='btn yellow '>Visit</a>
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div className="item-card">
                         <div className="card-wrapper">
                             <div className="card">
                                 <div className="main-title">
                                     <img src={juba} alt="satrolab tizimi" />
                                 </div>
                                 <h3>Juba Marketing</h3>
-                                <button className='btn yellow '>Visit</button>
+                                <a href='https://juba.uz/' className='btn yellow '>Visit</a>
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div className="item-card">
                         <div className="card-wrapper">
                             <div className="card">
                                 <div className="main-title">
                                     <img src={alzar} alt="satrolab tizimi" />
                                 </div>
                                 <h3>Alzar</h3>
-                                <button className='btn yellow '>Visit</button>
+                                <a href='https://alzar.uz/' className='btn yellow '>Visit</a>
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div className="item-card">
                         <div className="card-wrapper">
                             <div className="card">
                                 <div className="main-title">
                                     <img src={ziyorat} alt="satrolab tizimi" />
                                 </div>
                                 <h3>Ziyorat Turizm</h3>
-                                <button className='btn yellow '>Visit</button>
+                                <a href='http://ziyorat.uz/' className='btn yellow '>Visit</a>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="row second_cards">
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div className="item-card">
                         <div className="card-wrapper">
                             <div className="card">
                                 <div className="main-title">
                                     <img src={Alzargar} alt="satrolab tizimi" />
                                 </div>
                                 <h3>Alzargar Market</h3>
-                                <button className='btn yellow '>Visit</button>
+                                <a href='http://alzargar.uz/' className='btn yellow '>Visit</a>
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div className="item-card">
                         <div className="card-wrapper">
                             <div className="card">
                                 <div className="main-title">
                                     <img src={renova} alt="satrolab tizimi" />
                                 </div>
                                 <h3>Renovation</h3>
-                                <button className='btn yellow '>Visit</button>
+                                <a href='http://renova.uz/' className='btn yellow '>Visit</a>
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div className="item-card">
                         <div className="card-wrapper">
                             <div className="card">
                                 <div className="main-title">
                                     <img src={Gektr} alt="satrolab tizimi" />
                                 </div>
                                 <h3>Gekt Accounting</h3>
-                                <button className='btn yellow '>Visit</button>
+                                <a href='http://gekt.uz/' className='btn yellow '>Visit</a>
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div className="item-card">
                         <div className="card-wrapper">
                             <div className="card">
                                 <div className="main-title">
                                     <img src={ziyorat} alt="satrolab tizimi" />
                                 </div>
                                 <h3>Astrolab tizim</h3>
-                                <button className='btn yellow '>Visit</button>
+                                <a href='http://ziyorat.uz/' className='btn yellow '>Visit</a>
                             </div>
                         </div>
                     </div>
