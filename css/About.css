@@ -1,0 +1,109 @@
+.about_page {
+  background-image: url("../../assets/images/background-2.jpg");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+.about_page .logo {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  z-index: 99;
+}
+.about_page h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  text-align: center;
+  color: #FAFAFA;
+  margin-bottom: 40px;
+}
+.about_page .lists {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.about_page .lists ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.about_page .lists ul li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 30px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  color: #CDCDCD;
+}
+.about_page .lists ul li img {
+  object-fit: cover;
+}
+.about_page .btn_homes a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  border-radius: 40px;
+  margin-right: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.065em;
+  color: #1F1A1A;
+  padding: 14px;
+  margin-top: 30px;
+  text-align: center;
+  max-width: 300px;
+  margin: 30px auto;
+}
+
+@media (max-width: 500px) {
+  .about_page {
+    display: inline-flex;
+    place-items: center;
+  }
+  .about_page .logo {
+    position: relative;
+    display: grid;
+    place-items: center;
+    z-index: 99;
+    left: 0;
+    top: -5px;
+  }
+  .about_page h2 {
+    font-size: 36px;
+    line-height: 40px;
+    margin-top: 10px;
+  }
+  .about_page .lists {
+    display: block;
+  }
+  .about_page .lists ul li {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 25px;
+  }
+  .about_page .btn_homes a {
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0.065em;
+    color: #1F1A1A;
+    padding: 14px 0px;
+    margin-top: 30px;
+    text-align: center;
+    width: 50%;
+  }
+}/*# sourceMappingURL=About.css.map */

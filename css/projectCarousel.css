@@ -1,0 +1,26 @@
+.project_slide .swiper-slide {
+  width: 100% !important;
+}
+.project_slide .swiper-horizontal > .swiper-pagination-bullets, .project_slide .swiper-pagination-bullets.swiper-pagination-horizontal, .project_slide .swiper-pagination-custom, .project_slide .swiper-pagination-fraction {
+  bottom: 90px !important;
+  left: 0;
+  width: 100%;
+}
+.project_slide .swiper-pagination-bullet-active {
+  background: #fff !important;
+}
+@media (max-width: 1024px) {
+  .project_slide .swiper {
+    width: 400px;
+  }
+  .project_slide .swiper-horizontal > .swiper-pagination-bullets, .project_slide .swiper-pagination-bullets.swiper-pagination-horizontal, .project_slide .swiper-pagination-custom, .project_slide .swiper-pagination-fraction {
+    bottom: 0px !important;
+    left: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .project_slide .swiper {
+    width: 300px;
+  }
+}/*# sourceMappingURL=projectCarousel.css.map */

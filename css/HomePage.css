@@ -1,0 +1,203 @@
+.home {
+  background-image: url("../../assets/images/background.jpg");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.home .btn_home {
+  display: none;
+}
+.home .wrapperx {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.home .box {
+  position: absolute;
+  top: -100px;
+  right: 15%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 76px;
+  line-height: 93px;
+  padding: 0 0 30px 0;
+  background-color: transparent !important;
+  text-shadow: 2px 0 rgba(250, 250, 250, 0.2), -2px 0 rgba(250, 250, 250, 0.2), 0 2px rgba(250, 250, 250, 0.2), 0 -2px rgba(250, 250, 250, 0.2), 1px 1px rgba(250, 250, 250, 0.2), -1px -1px rgba(250, 250, 250, 0.2), 1px -1px rgba(250, 250, 250, 0.2), -1px 1px rgba(250, 250, 250, 0.2);
+}
+.home .boxes {
+  position: relative;
+}
+.home .logo {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  z-index: 99;
+}
+.home .main {
+  display: flex;
+  align-items: center;
+}
+.home .main .left {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.home .main .left p {
+  color: #fff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+}
+.home .main .left h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 76px;
+  line-height: 93px;
+  color: #FFFFFF;
+}
+.home .main .left span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  color: #CDCDCD;
+}
+.home .main .left .btn_homes a {
+  background: #FFFFFF;
+  border-radius: 40px;
+  margin-right: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.065em;
+  color: #1F1A1A;
+  padding: 14px 57px;
+  margin-top: 30px;
+  text-align: center;
+}
+.home .main .left .yellow {
+  background: #FFC131;
+  border-radius: 30px;
+  width: 130px;
+}
+.home .main .right {
+  position: absolute;
+  bottom: 0%;
+  right: 10%;
+}
+.home .main .right img {
+  object-fit: contain;
+  height: 700px;
+}
+.home .mouse {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  animation: mouseAnimation 3s infinite;
+}
+@keyframes mouseAnimation {
+  0% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@media screen and (max-width: 1278px) {
+  .home .main .right {
+    position: absolute;
+    bottom: 0%;
+    right: 10%;
+  }
+  .home .main .right img {
+    object-fit: contain;
+    height: 600px;
+  }
+  .home .mouse {
+    display: block;
+  }
+}
+@media screen and (max-width: 1131px) {
+  .home .main .right {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+  }
+  .home .main .right img {
+    object-fit: contain;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .home .wrapperx {
+    display: none;
+  }
+  .home .main .right {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+  }
+  .home .main .right img {
+    object-fit: contain;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .home .wrapperx {
+    display: none;
+  }
+  .home .logo {
+    position: relative;
+    display: grid;
+    place-items: center;
+    z-index: 99;
+    left: 0;
+  }
+  .home .main .left {
+    top: 36%;
+    text-align: center;
+  }
+  .home .main .left span {
+    font-size: 20px;
+  }
+  .home .main .left h1 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+  .home .main .left p {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .home .main .left .btn_homes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+  .home .main .left .btn_homes a {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .home .main .right {
+    position: absolute;
+    left: 0;
+    transform: translate(0%, 0%);
+  }
+  .home .main .right img {
+    object-fit: contain;
+    height: 370px;
+    width: 100%;
+  }
+}/*# sourceMappingURL=HomePage.css.map */

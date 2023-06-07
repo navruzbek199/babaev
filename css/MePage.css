@@ -1,0 +1,332 @@
+.me_page {
+  background-image: url("../../assets/images/background-2.jpg");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+.about_bro {
+  display: flex;
+  align-items: flex-start;
+  gap: 29px;
+}
+
+.about_left {
+  width: 50%;
+}
+.about_left .bro_img {
+  width: 100%;
+  object-fit: cover;
+  height: 460px;
+}
+.about_left .left_in {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 31px 25px;
+  gap: 10px;
+  width: 100%;
+  height: 106px;
+  background: rgba(217, 217, 217, 0.3);
+  border-radius: 40px;
+  margin-bottom: 22px;
+}
+.about_left .left_in p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #CDCDCD;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.about_right {
+  width: 47%;
+}
+.about_right h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 68px;
+  line-height: 98px;
+  width: auto;
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 52px;
+}
+.about_right p {
+  margin-bottom: 164px;
+  width: 100%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  color: #CDCDCD;
+}
+.about_right ul {
+  list-style: none;
+  width: 100%;
+  height: 390px;
+  background: rgba(217, 217, 217, 0.3);
+  border-radius: 40px;
+  padding: 26px 38px;
+}
+.about_right ul li {
+  margin-top: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  width: 100%;
+  font-size: 24px;
+  line-height: 29px;
+  color: #CDCDCD;
+}
+
+.about_lang {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lang_box {
+  display: flex;
+  flex-direction: column;
+}
+.lang_box div {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-bottom: 3px;
+}
+.lang_box div p {
+  font-family: "Bookman Old Style";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 35px;
+  height: auto;
+  letter-spacing: 0.065em;
+  color: #FFFFFF;
+  margin-bottom: 0 !important;
+}
+.lang_box div img {
+  display: block;
+  height: 27px;
+  width: 36px;
+  object-fit: cover;
+}
+.lang_box .mydots {
+  height: 24px;
+  width: 100px;
+}
+
+@media screen and (max-width: 999px) {
+  .about_lang {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    row-gap: 10px;
+  }
+  .lang_box div {
+    gap: 3px;
+    margin-bottom: 3px;
+  }
+  .lang_box div p {
+    font-size: 25px;
+  }
+  .lang_box div img {
+    display: block;
+    height: 17px;
+    width: 26px;
+    object-fit: cover;
+  }
+  .lang_box .mydots {
+    height: 20px;
+    width: 80px;
+  }
+}
+@media screen and (max-width: 1384px) {
+  .about_left {
+    width: 50%;
+  }
+  .about_left .bro_img {
+    width: 100%;
+    object-fit: cover;
+    height: 460px;
+  }
+  .about_left .left_in {
+    padding: 31px 15px;
+    gap: 10px;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 24px;
+  }
+  .about_left .left_in p {
+    font-size: 30px;
+    line-height: 44px;
+  }
+}
+@media screen and (max-width: 999px) {
+  .about_bro {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  .about_left {
+    width: 50%;
+  }
+  .about_left .left_in {
+    padding: 21px 15px;
+    gap: 10px;
+    width: 100%;
+    height: 90px;
+    margin-bottom: 24px;
+  }
+  .about_left .left_in p {
+    width: 100%;
+    font-size: 26px;
+    line-height: 45px;
+  }
+  .about_right {
+    width: 47%;
+  }
+  .about_right h2 {
+    font-size: 58px;
+    line-height: 78px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+  }
+  .about_right p {
+    margin-bottom: 104px;
+    width: 100%;
+    font-size: 22px;
+    line-height: 39px;
+  }
+  .about_right ul {
+    width: 100%;
+    height: auto;
+    padding: 26px 38px;
+  }
+  .about_right ul li {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+.mobile_name {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 31px 25px;
+  gap: 10px;
+  width: 100%;
+  height: 54px;
+  background: rgba(217, 217, 217, 0.3);
+  border-radius: 40px;
+}
+.mobile_name p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #FFFFFF;
+  height: 27px;
+}
+
+.mobile_bio {
+  display: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #CDCDCD;
+}
+
+@media screen and (max-width: 768px) {
+  .about_bro {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  .mobile_name {
+    display: flex;
+  }
+  .mobile_bio {
+    display: block;
+  }
+  .about_left {
+    width: 100%;
+  }
+  .about_left .bro_img {
+    width: 298px;
+    text-align: center;
+    height: 200px;
+    object-fit: fill;
+    margin-left: calc(50% - 149px);
+  }
+  .about_left .left_in {
+    padding: 21px 15px;
+    gap: 10px;
+    height: 40px;
+    margin-bottom: 14px;
+  }
+  .about_left .left_in p {
+    width: 100%;
+    font-size: 18px;
+    line-height: 0px;
+  }
+  .about_right {
+    width: 100%;
+  }
+  .about_right h2 {
+    display: none;
+  }
+  .about_right p {
+    display: none;
+  }
+  .about_right ul {
+    padding: 16px 28px;
+  }
+  .about_right ul li {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .about_lang {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    row-gap: 10px;
+  }
+  .lang_box div {
+    gap: 3px;
+    margin-bottom: 3px;
+  }
+  .lang_box div p {
+    font-size: 20px;
+  }
+  .lang_box div img {
+    display: block;
+    height: 17px;
+    width: 26px;
+    object-fit: cover;
+  }
+  .lang_box .mydots {
+    height: 15px;
+    width: 60px;
+  }
+}/*# sourceMappingURL=MePage.css.map */

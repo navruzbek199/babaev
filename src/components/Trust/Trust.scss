@@ -1,0 +1,157 @@
+.me_page{
+    background-image: url('../../assets/images/background-2.jpg');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+.trust_title{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 104px;
+width: 100%;
+color: #FFFFFF;
+margin-bottom: 135px;
+}
+.trust_box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    row-gap: 80px;
+}
+.tr_card{
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    p{
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+height: auto;
+width: 480px;
+    }
+}
+@media screen and (max-width:1388px) {
+    .trust_title{
+        font-size: 60px;
+    }
+    .tr_card{
+        img{
+            width: 100px;
+            height: 100px;
+            object-fit: fill;
+        }
+        gap: 20px;
+        p{
+            font-size: 20px;
+    width: 400px;
+        }
+    }
+    .trust_box{
+        gap: 0px;
+        row-gap: 60px;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .trust_title{
+        font-size: 50px;
+    }
+    .tr_card{
+        img{
+            width: 80px;
+            height: 100px;
+            object-fit: fill;
+        }
+        gap: 15px;
+        p{
+            font-size: 18px;
+    width: 370px;
+        }
+    }
+    .trust_box{
+        gap: 0px;
+        row-gap: 50px;
+    }
+}
+
+@media screen and (max-width:999px) {
+    .trust_title{
+        font-size: 40px;
+        margin-bottom: 80px;
+        line-height: 84px;
+    }
+    .tr_card{
+        img{
+            width: 80px;
+            height: 100px;
+            object-fit: fill;
+        }
+        gap: 15px;
+        p{
+            font-size: 18px;
+    width: 480px;
+        }
+    }
+    .trust_box{
+        gap: 0px;
+        row-gap: 30px;
+    }
+}
+@media screen and (max-width:768px) {
+    .trust_title{
+        font-size: 32px;
+        margin-bottom: 60px;
+        line-height: 44px;
+    }
+    .tr_card{
+        img{
+            width: 80px;
+            height: 50px;
+            object-fit: contain;
+        }
+        gap: 15px;
+        p{
+            font-size: 16px;
+    width: 100%;
+        }
+    }
+    .trust_box{
+        gap: 0px;
+        row-gap: 30px;
+    }
+}
+@media screen and (max-width:768px) {
+    .trust_title{
+        font-size: 20px;
+        margin-bottom: 30px;
+        line-height: 24px;
+    }
+    .tr_card{
+        img{
+            width: 80px;
+            height: 50px;
+            object-fit: contain;
+        }
+        gap: 15px;
+        p{
+            font-size: 12px;
+    width: 100%;
+        }
+    }
+    .trust_box{
+        gap: 0px;
+        row-gap: 20px;
+    }
+}

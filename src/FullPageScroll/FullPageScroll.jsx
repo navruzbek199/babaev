@@ -6,6 +6,8 @@ import Project from '../components/Project/Project'
 import Contacts from '../components/Contacts/Contacts'
 import About from '../components/About/About'
 import MePage from '../components/MePage/MePage'
+import Trust from '../components/Trust/Trust'
+import Certificat from '../components/Certificat/Certificat'
 const FullPageScroll = () => {
         return (
                 <div className='fullpage'>
@@ -21,6 +23,12 @@ const FullPageScroll = () => {
                                         </FullpageSection>
                                         <FullpageSection>
                                                 <MePage/>
+                                        </FullpageSection>
+                                        <FullpageSection style={{ height: "100vh" }}>
+                                                <Trust/>
+                                        </FullpageSection>
+                                        <FullpageSection style={{ height: "100vh" }}>
+                                                <Certificat/>
                                         </FullpageSection>
                                         <FullpageSection style={{ height: "100vh" }}>
                                                 <Service/>
