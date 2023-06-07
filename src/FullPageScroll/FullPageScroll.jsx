@@ -4,22 +4,29 @@ import HomePage from '../components/Homepage/HomePage'
 import Service from '../components/Service/Service'
 import Project from '../components/Project/Project'
 import Contacts from '../components/Contacts/Contacts'
+import About from '../components/About/About'
+import MePage from '../components/MePage/MePage'
 const FullPageScroll = () => {
         return (
-                <div>
+                <div className='fullpage'>
                  
                         <Fullpage>
-                                {/* <FullpageNavigation /> */}
+                                <FullpageNavigation/>
                                 <FullPageSections >
                                         <FullpageSection style={{ height: "100vh" }}>
                                                 <HomePage/>
+                                        </FullpageSection>
+                                        <FullpageSection style={{ height: "100vh" }}>
+                                                <About/>
+                                        </FullpageSection>
+                                        <FullpageSection>
+                                                <MePage/>
                                         </FullpageSection>
                                         <FullpageSection style={{ height: "100vh" }}>
                                                 <Service/>
                                         </FullpageSection>
                                         <FullpageSection style={{ height: "100vh" }}>
                                                 <Project/>
-                                               
                                         </FullpageSection>
                                         <FullpageSection style={{ height: "100vh" }}>
                                                 <Contacts/>

@@ -75,8 +75,8 @@
                 font-family: 'Montserrat';
                 font-style: normal;
                 font-weight: 300;
-                font-size: 20px;
-                line-height: 24px;
+                font-size: 17px;
+                line-height: 22px;
                 color: #FFFFFF;
                 margin-top: 10px;
                 margin-bottom: 22px;
@@ -137,6 +137,25 @@
                 line-height: 40px;
             }
         }
+        
 
     }
 }
+
+@media screen and (max-width:500px) {
+    .service {
+        .card{
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+        }
+        .card-wrapper {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 16px;
+        }
+    }
+}
+
+

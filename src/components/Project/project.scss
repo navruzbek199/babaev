@@ -50,8 +50,9 @@
             align-items: center;
             width: 100%;
             @media (max-width: 500px) {
-                    height: 245px;  
-                    padding: 20px 0;              
+                height: 345px;
+                padding: 20px 0;
+                width: 300px;             
             }
             .main-title{
                 border-radius: 30px;
@@ -63,6 +64,10 @@
                 img{
                     width: 110px;
                     object-fit: contain;
+                    @media (max-width: 500px) {
+                        width: 200px;
+                        object-fit: contain;
+                    }
                 }
             }
             h3{

@@ -1,8 +1,8 @@
 import React from 'react'
-import {Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import juba from '../../assets/images/A1 1.png'
 import alzar from '../../assets/images/A9 1.png'
-import ziyorat from '../../assets/images/A6 1.png'
+import ziyorat from '../../assets/images/logo juba.png'
 import renova from '../../assets/images/logo.png'
 import { Pagination } from 'swiper';
 import service from '../../assets/images/astro logo (1).png'
@@ -37,44 +37,42 @@ const ServiseCarousel = () => {
                 <SwiperSlide>
                     <div className="card_item">
                         <div className='card_box'>
-                                <div className='card-wrapper'>
-                                    <div className='card'>
-                                        <div className='main-title'>
-                                            <img src={juba} alt='satrolab tizimi' />
-                                        </div>
-                                        <h3>Turizm</h3>
-                                        <p>
-                                            Nazorat tizimi xodimlarning ishga kelish davomati va foydali
-                                            ish koeffitsiyentini hisoblashda juda samarali vosita!
-                                        </p>
-                                        <div className='buttons-wrapper'>
-                                            <a href='https://ziyorattour.uz/' className='btn yellow '>Visit</a>
-                                        </div>
+                            <div className='card-wrapper'>
+                                <div className='card'>
+                                    <div className='main-title'>
+                                        <img src={juba} alt='satrolab tizimi' />
+                                    </div>
+                                    <h3>Turizm</h3>
+                                    <p>
+                                        Предлагаем уникальные туристические пакеты и программы для незабываемых путешествий с высоким уровнем комфорта и безопасности. Откройте новые горизонты вместе с нами!
+                                    </p>
+                                    <div className='buttons-wrapper'>
+                                        <a href='https://ziyorattour.uz/' className='btn yellow '>Visit</a>
                                     </div>
                                 </div>
+                            </div>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="card_item">
                         <div className='card_box'>
-                                <div className='card-wrapper'>
-                                    <div className='card'>
-                                        <div className='main-title'>
-                                            <img src={ziyorat} alt='satrolab tizimi' />
-                                        </div>
-                                        <h3>Marketing</h3>
-                                        <p>
-                                            Nazorat tizimi xodimlarning ishga kelish davomati va foydali
-                                            ish koeffitsiyentini hisoblashda juda samarali vosita!
-                                        </p>
-                                        <div className='buttons-wrapper'>
-                                            <a href='https://juba.uz/' className='btn yellow '>Visit</a>
-                                        </div>
+                            <div className='card-wrapper'>
+                                <div className='card'>
+                                    <div className='main-title'>
+                                        <img src={ziyorat} alt='satrolab tizimi' />
+                                    </div>
+                                    <h3>Marketing</h3>
+                                    <p>
+                                     Cоздаем эффективные стратегии в социальных медиа для увеличения вашей онлайн-видимости и привлечения новых клиентов, чтобы ваш бренд достигал успеха и признания.
+                                    </p>
+                                    <div className='buttons-wrapper'>
+                                        <a href='https://juba.uz/' className='btn yellow '>Visit</a>
                                     </div>
                                 </div>
                             </div>
-                     </div>
+                        </div>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="card_item">
@@ -87,8 +85,7 @@ const ServiseCarousel = () => {
                                         </div>
                                         <h3>IT</h3>
                                         <p>
-                                            Nazorat tizimi xodimlarning ishga kelish davomati va foydali
-                                            ish koeffitsiyentini hisoblashda juda samarali vosita!
+                                            Cоздаем инновационное программное обеспечение, веб- и мобильные приложения, а также предлагаем услуги по автоматизации бизнес-процессов для вашего успеха в цифровой эпохе.
                                         </p>
                                         <div className='buttons-wrapper'>
                                             <a href='https://tizim.astrolab.uz/' className='btn yellow '>Visit</a>
@@ -110,8 +107,7 @@ const ServiseCarousel = () => {
                                         </div>
                                         <h3>Qurilish</h3>
                                         <p>
-                                            Nazorat tizimi xodimlarning ishga kelish davomati va foydali
-                                            ish koeffitsiyentini hisoblashda juda samarali vosita!
+                                             Cтроительствo государственных объектов, гарантируем надежные сооружения в соответствии с высокими стандартами качества и сроками, работаем с государственными заказчиками.
                                         </p>
                                         <div className='buttons-wrapper'>
                                             <a href='https://renova.uz/' className='btn yellow '>Visit</a>
@@ -122,7 +118,7 @@ const ServiseCarousel = () => {
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
+                {/* <SwiperSlide>
                     <div className="card_item">
                         <div className='card_box '>
                             <div className=''>
@@ -144,7 +140,7 @@ const ServiseCarousel = () => {
                             </div>
                         </div>
                     </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
             </Swiper>
         </div>
     )

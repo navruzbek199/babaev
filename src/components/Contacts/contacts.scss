@@ -259,3 +259,12 @@
     }
     
 }
+
+
+@media (max-width: 500px){
+    .contact_menu {
+        width: 300px;
+        display: flex;
+        margin: 0 auto;
+    }
+}
