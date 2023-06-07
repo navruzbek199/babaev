@@ -59,18 +59,7 @@ const Certificat = () => {
           <div className="serti_card">
             <img src={ser13} alt="" />
           </div>
-          <div className="serti_card">
-            <img src={ser14} alt="" />
-          </div>
-          <div className="serti_card">
-            <img src={ser9} alt="" />
-          </div>
-          <div className="serti_card">
-            <img src={ser15} alt="" />
-          </div>
-          <div className="serti_card">
-            <img src={ser16} alt="" />
-          </div>
+ 
         </div>
     </div>
 </div>

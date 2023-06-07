@@ -21,7 +21,7 @@
 }
 .about_left .bro_img {
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   height: 460px;
 }
 .about_left .left_in {
