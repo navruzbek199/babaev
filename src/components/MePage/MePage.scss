@@ -125,12 +125,11 @@ margin-bottom: 0 !important;
             display: block;
             height: 27px;
             width: 36px;
-            object-fit: cover;
         }
     }
     .mydots{
-        height: 24px;
-        width: 100px;
+        width: 150px;
+        object-fit: cover;
     }
 }
 @media screen and (max-width:999px) {
@@ -344,12 +343,16 @@ color: #CDCDCD;
     gap: 8px;
     row-gap: 10px;
     }
+    .about_lang{
+        display: flex !important;
+        justify-content: space-between !important;
+    }
     .lang_box{
         div{
-            gap: 3px;
+            gap: 33px;
             margin-bottom: 3px;
             p{
-    font-size: 20px;
+    font-size: 24px;
 
     }
             img{
@@ -360,8 +363,7 @@ color: #CDCDCD;
             }
         }
         .mydots{
-            height: 15px;
-            width: 60px;
+            display: none;
         }
     }
 }

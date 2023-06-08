@@ -11,11 +11,18 @@ code {
 }
 
 .swiper {
-  width:100% ;
+  width: 100%;
   /* max-width: 400px !important; */
   min-height: 400px;
-  
+
 }
-.fullage span {
-    background: white!important;
+
+.fullpage  [role=button] {
+  background: white !important;
+}
+
+@media screen and (max-width:500px) {
+  .fullpage [role=button] {
+  display: none !important;
   }
+}

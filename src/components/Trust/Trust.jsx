@@ -7,7 +7,7 @@ const Trust = () => {
 	return (
 		<div className='me_page'>
 			<div className='container'>
-				<h3 className='trust_title'>Почему мне можно доверять</h3>
+				<h2 className='trust_title'>Почему мне можно доверять</h2>
 				<div className='trust_box'>
 					<div className='tr_card'>
 						<img src={trust1} alt='trust' />
@@ -25,7 +25,7 @@ const Trust = () => {
 					</div>
                     <div className='tr_card'>
 						<img src={trust3} alt='trust' />
-						<p>
+						<p className='second'>
 						2. Целеустремленность: Я очень целеустремленный человек, который знает , чего я хочу, и готов работать усердно, чтобы достичь своих целей. Я стремлюсь к успеху и готов принимать риски, чтобы достичь результата.
 
 						</p>

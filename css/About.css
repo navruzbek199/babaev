@@ -47,7 +47,8 @@
   color: #CDCDCD;
 }
 .about_page .lists ul li img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .about_page .btn_homes a {
   display: flex;

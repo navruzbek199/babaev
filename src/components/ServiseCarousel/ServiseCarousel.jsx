@@ -42,12 +42,12 @@ const ServiseCarousel = () => {
                                     <div className='main-title'>
                                         <img src={juba} alt='satrolab tizimi' />
                                     </div>
-                                    <h3>Turizm</h3>
+                                    <h3>Туризм</h3>
                                     <p>
                                         Предлагаем уникальные туристические пакеты и программы для незабываемых путешествий с высоким уровнем комфорта и безопасности. Откройте новые горизонты вместе с нами!
                                     </p>
                                     <div className='buttons-wrapper'>
-                                        <a href='https://ziyorattour.uz/' className='btn yellow '>Visit</a>
+                                        <a href='https://ziyorattour.uz/' className='btn yellow '>Входить</a>
                                     </div>
                                 </div>
                             </div>
@@ -62,12 +62,12 @@ const ServiseCarousel = () => {
                                     <div className='main-title'>
                                         <img src={ziyorat} alt='satrolab tizimi' />
                                     </div>
-                                    <h3>Marketing</h3>
+                                    <h3>Маркетинг</h3>
                                     <p>
                                      Cоздаем эффективные стратегии в социальных медиа для увеличения вашей онлайн-видимости и привлечения новых клиентов, чтобы ваш бренд достигал успеха и признания.
                                     </p>
                                     <div className='buttons-wrapper'>
-                                        <a href='https://juba.uz/' className='btn yellow '>Visit</a>
+                                        <a href='https://juba.uz/' className='btn yellow '>Входить</a>
                                     </div>
                                 </div>
                             </div>
@@ -88,7 +88,7 @@ const ServiseCarousel = () => {
                                             Cоздаем инновационное программное обеспечение, веб- и мобильные приложения, а также предлагаем услуги по автоматизации бизнес-процессов для вашего успеха в цифровой эпохе.
                                         </p>
                                         <div className='buttons-wrapper'>
-                                            <a href='https://tizim.astrolab.uz/' className='btn yellow '>Visit</a>
+                                            <a href='https://tizim.astrolab.uz/' className='btn yellow '>Входить</a>
                                         </div>
                                     </div>
                                 </div>
@@ -105,12 +105,12 @@ const ServiseCarousel = () => {
                                         <div className='main-title'>
                                             <img src={renova} alt='satrolab tizimi' />
                                         </div>
-                                        <h3>Qurilish</h3>
+                                        <h3>Строительство</h3>
                                         <p>
                                              Cтроительствo государственных объектов, гарантируем надежные сооружения в соответствии с высокими стандартами качества и сроками, работаем с государственными заказчиками.
                                         </p>
                                         <div className='buttons-wrapper'>
-                                            <a href='https://renova.uz/' className='btn yellow '>Visit</a>
+                                            <a href='https://renova.uz/' className='btn yellow '>Входить</a>
                                         </div>
                                     </div>
                                 </div>

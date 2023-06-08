@@ -22,7 +22,7 @@ function Project() {
             <div className="title">
                 <ParallaxProvider>
                         <Parallax speed={2}>      
-                            <h2 className='animate__animated animate__zoomIn animate__delay-4s'>Project</h2>
+                            <h2 className='animate__animated animate__zoomIn animate__delay-4s'>Проекты</h2>
                         </Parallax> 
                 </ParallaxProvider>
             </div>
@@ -38,7 +38,7 @@ function Project() {
                                     <img src={tizim} alt="satrolab tizimi" />
                                 </div>
                                 <h3>Astrolab tizim</h3>
-                                <a href='https://tizim.astrolab.uz/' className='btn yellow '>Visit</a>
+                                <a href='https://tizim.astrolab.uz/' className='btn yellow '>Входить</a>
                             </div>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ function Project() {
                                     <img src={juba} alt="satrolab tizimi" />
                                 </div>
                                 <h3>Juba Marketing</h3>
-                                <a href='https://juba.uz/' className='btn yellow '>Visit</a>
+                                <a href='https://juba.uz/' className='btn yellow '>Входить</a>
                             </div>
                         </div>
                     </div>
@@ -60,7 +60,7 @@ function Project() {
                                     <img src={alzar} alt="satrolab tizimi" />
                                 </div>
                                 <h3>Alzar</h3>
-                                <a href='https://alzar.uz/' className='btn yellow '>Visit</a>
+                                <a href='https://alzar.uz/' className='btn yellow '>Входить</a>
                             </div>
                         </div>
                     </div>
@@ -71,7 +71,7 @@ function Project() {
                                     <img src={ziyorat} alt="satrolab tizimi" />
                                 </div>
                                 <h3>Ziyorat Turizm</h3>
-                                <a href='http://ziyorat.uz/' className='btn yellow '>Visit</a>
+                                <a href='http://ziyorat.uz/' className='btn yellow '>Входить</a>
                             </div>
                         </div>
                     </div>
@@ -82,7 +82,7 @@ function Project() {
                                     <img src={Alzargar} alt="satrolab tizimi" />
                                 </div>
                                 <h3>Alzargar Market</h3>
-                                <a href='http://alzargar.uz/' className='btn yellow '>Visit</a>
+                                <a href='http://alzargar.uz/' className='btn yellow '>Входить</a>
                             </div>
                         </div>
                     </div>
@@ -93,7 +93,7 @@ function Project() {
                                     <img src={renova} alt="satrolab tizimi" />
                                 </div>
                                 <h3>Renovation</h3>
-                                <a href='http://renova.uz/' className='btn yellow '>Visit</a>
+                                <a href='http://renova.uz/' className='btn yellow '>Входить</a>
                             </div>
                         </div>
                     </div>
@@ -104,21 +104,21 @@ function Project() {
                                     <img src={Gektr} alt="satrolab tizimi" />
                                 </div>
                                 <h3>Gekt Accounting</h3>
-                                <a href='http://gekt.uz/' className='btn yellow '>Visit</a>
+                                <a href='http://gekt.uz/' className='btn yellow '>Входить</a>
                             </div>
                         </div>
                     </div>
-                    <div className="item-card">
+                    {/* <div className="item-card">
                         <div className="card-wrapper">
                             <div className="card">
                                 <div className="main-title">
                                     <img src={ziyorat} alt="satrolab tizimi" />
                                 </div>
                                 <h3>Astrolab tizim</h3>
-                                <a href='http://ziyorat.uz/' className='btn yellow '>Visit</a>
+                                <a href='http://ziyorat.uz/' className='btn yellow '>Входить</a>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 

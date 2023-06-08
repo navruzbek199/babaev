@@ -16,7 +16,7 @@ function Service() {
                 <div className="title">
                     <ParallaxProvider>
                         <Parallax speed={2}>
-                            <h2 className='animate__animated animate__zoomIn animate__delay-1s'>Service</h2>
+                            <h2 className='animate__animated animate__zoomIn animate__delay-1s'>Услуги</h2>
                         </Parallax>
                     </ParallaxProvider>
                 </div>

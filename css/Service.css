@@ -42,7 +42,8 @@
   box-sizing: border-box;
   background: rgba(250, 250, 250, 0.3);
   border: 1px solid #FAFAFA;
-  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
   border-radius: 30px;
   padding: 26px 30px;
   height: 500px;
@@ -103,6 +104,7 @@
 .service .card-wrapper .card .yellow {
   background: #FFC131;
   border-radius: 20px;
+  width: 100%;
 }
 
 @media screen and (max-width: 1200px) {

@@ -40,7 +40,8 @@
 .serti_card img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media screen and (max-width: 768px) {
@@ -53,11 +54,17 @@
   .serti_card img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .certificate_title {
     font-size: 36px;
     line-height: 87px;
     margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .serti_card {
+    margin: 0 auto;
   }
 }/*# sourceMappingURL=Certificate.css.map */

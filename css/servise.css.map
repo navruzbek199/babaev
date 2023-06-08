@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../src/components/ServiseCarousel/servise.scss"],"names":[],"mappings":"AAEI;EACI;EACA;;AAEF;EACE;EACA;EACA;;AAEF;EACE;;AAEF;EACE;IACI;;EAEJ;IACE;IACA;IACA;;;AAGJ;EACE;IACI","file":"servise.css"}
+{"version":3,"sources":["../src/components/ServiseCarousel/servise.scss","servise.css"],"names":[],"mappings":"AAEI;EACI,YAAA;EACA,oBAAA;ACDR;ADGM;EACE,sBAAA;EACA,OAAA;EACA,WAAA;ACDR;ADGM;EACE,2BAAA;ACDR;ADGM;EACE;IACI,YAAA;ECDV;EDGM;IACE,sBAAA;IACA,OAAA;IACA,WAAA;ECDR;AACF;ADGM;EACE;IACI,YAAA;ECDV;AACF","file":"servise.css"}

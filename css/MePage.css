@@ -21,7 +21,8 @@
 }
 .about_left .bro_img {
   width: 100%;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   height: 460px;
 }
 .about_left .left_in {
@@ -122,11 +123,11 @@
   display: block;
   height: 27px;
   width: 36px;
-  object-fit: cover;
 }
 .lang_box .mydots {
-  height: 24px;
-  width: 100px;
+  width: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media screen and (max-width: 999px) {
@@ -147,7 +148,8 @@
     display: block;
     height: 17px;
     width: 26px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .lang_box .mydots {
     height: 20px;
@@ -160,7 +162,8 @@
   }
   .about_left .bro_img {
     width: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     height: 460px;
   }
   .about_left .left_in {
@@ -273,7 +276,8 @@
     width: 298px;
     text-align: center;
     height: 200px;
-    object-fit: fill;
+    -o-object-fit: fill;
+       object-fit: fill;
     margin-left: calc(50% - 149px);
   }
   .about_left .left_in {
@@ -312,21 +316,25 @@
     gap: 8px;
     row-gap: 10px;
   }
+  .about_lang {
+    display: flex !important;
+    justify-content: space-between !important;
+  }
   .lang_box div {
-    gap: 3px;
+    gap: 33px;
     margin-bottom: 3px;
   }
   .lang_box div p {
-    font-size: 20px;
+    font-size: 24px;
   }
   .lang_box div img {
     display: block;
     height: 17px;
     width: 26px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .lang_box .mydots {
-    height: 15px;
-    width: 60px;
+    display: none;
   }
 }/*# sourceMappingURL=MePage.css.map */

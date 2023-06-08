@@ -36,7 +36,7 @@ const ProjectCarousel = () => {
                     },
                   }}
             >
-                <SwiperSlide>
+                {/* <SwiperSlide>
                     <div className="item-card">
                         <div className="card-wrapper">
                             <div className="card">
@@ -44,10 +44,10 @@ const ProjectCarousel = () => {
                                     <img src={tizim} alt="satrolab tizimi" />
                                 </div>
                                 <h3>Astrolab tizim</h3>
-                                <a href='https://tizim.astrolab.uz/' className='btn yellow '>Visit</a>
+                                <a href='https://tizim.astrolab.uz/' className='btn yellow '>Входить</a>
                             </div>
                         </div>
-                    </div></SwiperSlide>
+                    </div></SwiperSlide> */}
                 <SwiperSlide>
                     <div className="item-card">
                         <div className="card-wrapper">
@@ -56,7 +56,7 @@ const ProjectCarousel = () => {
                                     <img src={juba} alt="satrolab tizimi" />
                                 </div>
                                 <h3>Juba Marketing</h3>
-                                <a href='http://juba.uz/' className='btn yellow '>Visit</a>
+                                <a href='http://juba.uz/' className='btn yellow '>Входить</a>
                             </div>
                         </div>
                     </div></SwiperSlide>
@@ -67,7 +67,7 @@ const ProjectCarousel = () => {
                                 <img src={alzar} alt="satrolab tizimi" />
                             </div>
                             <h3>Alzar</h3>
-                            <a href='http://alzar.uz/' className='btn yellow '>Visit</a>
+                            <a href='http://alzar.uz/' className='btn yellow '>Входить</a>
                         </div>
                     </div>
                 </div></SwiperSlide>
@@ -78,7 +78,7 @@ const ProjectCarousel = () => {
                                 <img src={ziyorat} alt="satrolab tizimi" />
                             </div>
                             <h3>Ziyorat Turizm</h3>
-                            <a href='http://ziyorat.uz/' className='btn yellow '>Visit</a>
+                            <a href='http://ziyorat.uz/' className='btn yellow '>Входить</a>
                         </div>
                     </div>
                 </div></SwiperSlide>
@@ -89,7 +89,7 @@ const ProjectCarousel = () => {
                                 <img src={Alzargar} alt="satrolab tizimi" />
                             </div>
                             <h3>Alzargar Market</h3>
-                            <a href='http://alzargar.uz/' className='btn yellow '>Visit</a>
+                            <a href='http://alzargar.uz/' className='btn yellow '>Входить</a>
                         </div>
                     </div>
                 </div></SwiperSlide>
@@ -100,7 +100,7 @@ const ProjectCarousel = () => {
                                 <img src={renova} alt="satrolab tizimi" />
                             </div>
                             <h3>Renovation</h3>
-                            <a href='http://renova.uz/' className='btn yellow '>Visit</a>
+                            <a href='http://renova.uz/' className='btn yellow '>Входить</a>
                         </div>
                     </div>
                 </div></SwiperSlide>
@@ -111,7 +111,7 @@ const ProjectCarousel = () => {
                                 <img src={Gektr} alt="satrolab tizimi" />
                             </div>
                             <h3>Gekt Accounting</h3>
-                            <a href='http://gekt.uz/' className='btn yellow '>Visit</a>
+                            <a href='http://gekt.uz/' className='btn yellow '>Входить</a>
                         </div>
                     </div>
                 </div></SwiperSlide>
@@ -122,7 +122,7 @@ const ProjectCarousel = () => {
                                 <img src={ziyorat} alt="satrolab tizimi" />
                             </div>
                             <h3>Ziyorat Tour</h3>
-                            <a href='http://ziyorat.uz/' className='btn yellow '>Visit</a>
+                            <a href='http://ziyorat.uz/' className='btn yellow '>Входить</a>
                         </div>
                     </div>
                 </div></SwiperSlide>

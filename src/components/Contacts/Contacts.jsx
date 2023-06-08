@@ -19,7 +19,7 @@ function Contacts() {
                 <div className="title">
                 <ParallaxProvider>
                     <Parallax speed={5}>      
-                        <h2 className='animate__animated animate__zoomIn animate__delay-3s'>Contacts</h2>
+                        <h2 className='animate__animated animate__zoomIn animate__delay-3s'>Контакты</h2>
                     </Parallax> 
                 </ParallaxProvider>
                 </div>
@@ -28,7 +28,7 @@ function Contacts() {
                         <li>
                             <img src={phone} alt="" />
                             <div className='text'>
-                                <h4>PHONE</h4>
+                                <h4>ТЕЛЕФОН</h4>
                                 <span>
                                     +998 998466668 <br />
                                     +998 990786192
@@ -38,19 +38,19 @@ function Contacts() {
                         <li>
                             <img src={location} alt="" />
                             <div className='text'>
-                                <h4>LOCATION</h4>
+                                <h4>РАСПОЛОЖЕНИЕ</h4>
                                 <span>
-                                    49, Islam Karimov street, <br />
-                                    Tashkent, Uzbekistan
+                                улица Ислама Каримова, 49, <br />
+                                Ташкент, Узбекистан
                                 </span>
                             </div>
                         </li>
                         <li>
                             <img src={time} alt="" />
                             <div className='text'>
-                                <h4>WORK HOURS</h4>
+                                <h4>РАБОЧИЕ ЧАСЫ</h4>
                                 <span>
-                                    Monday-Saturday <br />
+                                Понедельник-Cуббота <br />
                                     09:00-18:00
                                 </span>
                             </div>
@@ -58,7 +58,7 @@ function Contacts() {
                         <li>
                             <img src={email} alt="" />
                             <div className='text'>
-                                <h4>EMAIL</h4>
+                                <h4>ЭЛЕКТРОННАЯ ПОЧТА</h4>
                                 <span>
                                     info@astrolab.uz
                                 </span>
