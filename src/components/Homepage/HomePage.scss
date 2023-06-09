@@ -125,8 +125,9 @@
     .mouse {
         position: absolute;
         bottom: 10px;
-        left: 50%;
+        left: calc(50% - 23px);
         animation: mouseAnimation 3s infinite;
+        transform: translate(-50%);
     }
 
     @keyframes mouseAnimation {
@@ -233,8 +234,9 @@
                     font-size: 20px;
                 }
                 h1{
-                    font-size: 60px;
-                    line-height: 70px;
+                    font-size: 36px;
+                    line-height: 40px;
+                    text-align: center;
                 }
                 p{
                     font-size: 36px;
