@@ -331,14 +331,19 @@ color: #CDCDCD;
         padding: 16px 28px;
         li{
         margin-top: 5px;
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 13px;
+        line-height: 18px;
         }
             }
         }
         
 }
 @media screen and (max-width:500px) {
+    .about_left{
+        .bro_img{
+            object-fit: contain;
+    height: 190px;
+        }}
     .mobile_name{
         display: flex;
             p{
@@ -360,16 +365,16 @@ color: #CDCDCD;
     }
     .lang_box{
         div{
-            gap: 33px;
+            gap: 10px;
             margin-bottom: 3px;
             p{
-    font-size: 24px;
+    font-size: 16px;
 
     }
             img{
                 display: block;
-                height: 17px;
-                width: 26px;
+                height: 15px;
+                width: 24px;
                 object-fit: cover;
             }
         }
