@@ -8,6 +8,7 @@
     position: relative;
     display: grid;
     place-items: center;
+    padding-top: 10px;
     .logo {
         position: absolute;
         top: 40px;
@@ -37,7 +38,7 @@
 
             li {
                 display: flex;
-                align-items: flex-start;
+                align-items: center;
                 gap: 12px;
                 margin-bottom: 30px;
                 img {
@@ -89,6 +90,7 @@
             z-index: 99;
             left: 0;
             top: -5px;
+            display: none;
 
         }
         h2{

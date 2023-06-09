@@ -228,8 +228,10 @@
 
         .main {
             .left {
-                top: 36%;
+                top: 35%;
                 text-align: center;
+                // right: 7%;
+                width: 100%;
                 span{
                     font-size: 20px;
                 }
@@ -237,6 +239,7 @@
                     font-size: 36px;
                     line-height: 40px;
                     text-align: center;
+                    margin: 0 auto;
                 }
                 p{
                     font-size: 36px;
@@ -263,7 +266,7 @@
                 img {
                     object-fit: contain;
 
-                    height: 370px;
+                    height: 45vh;
                     width: 100%;
                 }
             }

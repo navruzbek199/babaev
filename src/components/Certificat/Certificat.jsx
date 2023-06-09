@@ -15,12 +15,16 @@ import ser13 from '../../assets/images/sertificat13.png'
 import ser14 from '../../assets/images/sertificat14.png'
 import ser15 from '../../assets/images/sertificat15.png'
 import ser16 from '../../assets/images/sertificat16.png'
+import CarouselCertificat from '../CarouselCertificat/CarouselCertificat'
 const Certificat = () => {
   return (
     <div className='me_page'>
     <div className='container'>
 <h3 className='certificate_title'>Сертификаты</h3>
-        
+<div className="mobile_serti">
+
+        <CarouselCertificat/>
+</div>
         <div className="certi_box">
           <div className="serti_card">
             <img src={ser1} alt="" />

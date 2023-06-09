@@ -36,18 +36,7 @@ const ProjectCarousel = () => {
                     },
                   }}
             >
-                {/* <SwiperSlide>
-                    <div className="item-card">
-                        <div className="card-wrapper">
-                            <div className="card">
-                                <div className="main-title">
-                                    <img src={tizim} alt="satrolab tizimi" />
-                                </div>
-                                <h3>Astrolab tizim</h3>
-                                <a href='https://tizim.astrolab.uz/' className='btn yellow '>Входить</a>
-                            </div>
-                        </div>
-                    </div></SwiperSlide> */}
+            
                 <SwiperSlide>
                     <div className="item-card">
                         <div className="card-wrapper">
@@ -60,7 +49,8 @@ const ProjectCarousel = () => {
                             </div>
                         </div>
                     </div></SwiperSlide>
-                <SwiperSlide> <div className="item-card">
+                <SwiperSlide>
+                 <div className="item-card">
                     <div className="card-wrapper">
                         <div className="card">
                             <div className="main-title">
@@ -126,13 +116,6 @@ const ProjectCarousel = () => {
                         </div>
                     </div>
                 </div></SwiperSlide>
-
-
-
-
-
-
-
 
             </Swiper>
         </div>

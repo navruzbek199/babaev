@@ -21,6 +21,7 @@
             place-items: center;
             z-index: 99;
             left: 0 !important;
+            display: none;
         }
     }
 
@@ -205,10 +206,12 @@
             border-radius: 30px;
             min-height: 400px;
             margin-top: 60px;
+            width: 100%;
             .contact_menu_item {
                 display: grid;
                 align-items: center;
                 place-items: center;
+                width: 100%;
 
                 li {
                     padding: 12px;

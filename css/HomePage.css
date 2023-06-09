@@ -98,15 +98,15 @@
   right: 10%;
 }
 .home .main .right img {
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   height: 700px;
 }
 .home .mouse {
   position: absolute;
   bottom: 10px;
-  left: 50%;
+  left: calc(50% - 23px);
   animation: mouseAnimation 3s infinite;
+  transform: translate(-50%);
 }
 @keyframes mouseAnimation {
   0% {
@@ -124,8 +124,7 @@
     right: 10%;
   }
   .home .main .right img {
-    -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
     height: 600px;
   }
   .home .mouse {
@@ -139,8 +138,7 @@
     right: 0%;
   }
   .home .main .right img {
-    -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
     height: 500px;
   }
 }
@@ -154,8 +152,7 @@
     right: 0%;
   }
   .home .main .right img {
-    -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
     height: 400px;
   }
 }
@@ -178,8 +175,10 @@
     font-size: 20px;
   }
   .home .main .left h1 {
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 auto;
   }
   .home .main .left p {
     font-size: 36px;
@@ -201,8 +200,7 @@
     transform: translate(0%, 0%);
   }
   .home .main .right img {
-    -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
     height: 370px;
     width: 100%;
   }

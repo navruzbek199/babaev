@@ -57,8 +57,7 @@
   .tr_card img {
     width: 100px;
     height: 100px;
-    -o-object-fit: fill;
-       object-fit: fill;
+    object-fit: fill;
   }
   .tr_card p {
     font-size: 20px;
@@ -79,8 +78,7 @@
   .tr_card img {
     width: 80px;
     height: 100px;
-    -o-object-fit: fill;
-       object-fit: fill;
+    object-fit: fill;
   }
   .tr_card p {
     font-size: 18px;
@@ -103,8 +101,7 @@
   .tr_card img {
     width: 80px;
     height: 100px;
-    -o-object-fit: fill;
-       object-fit: fill;
+    object-fit: fill;
   }
   .tr_card p {
     font-size: 18px;
@@ -128,8 +125,7 @@
   .tr_card img {
     width: 80px;
     height: 50px;
-    -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
   }
   .tr_card p {
     font-size: 16px;
@@ -153,8 +149,7 @@
   .tr_card img {
     width: 80px;
     height: 50px;
-    -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
   }
   .tr_card p {
     font-size: 12px;

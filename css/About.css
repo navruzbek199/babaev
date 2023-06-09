@@ -47,8 +47,7 @@
   color: #CDCDCD;
 }
 .about_page .lists ul li img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .about_page .btn_homes a {
   display: flex;
@@ -78,7 +77,7 @@
   }
   .about_page .logo {
     position: relative;
-    display: grid;
+    display: none;
     place-items: center;
     z-index: 99;
     left: 0;

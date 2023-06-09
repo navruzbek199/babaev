@@ -56,8 +56,7 @@
 .project .card-wrapper .card {
   background: rgba(250, 250, 250, 0.3);
   border: 1px solid #FAFAFA;
-  -webkit-backdrop-filter: blur(40px);
-          backdrop-filter: blur(40px);
+  backdrop-filter: blur(40px);
   border-radius: 30px;
   height: 300px;
   padding: 48px 0;
@@ -81,14 +80,12 @@
 }
 .project .card-wrapper .card .main-title img {
   width: 110px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 @media (max-width: 500px) {
   .project .card-wrapper .card .main-title img {
     width: 200px;
-    -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
   }
 }
 .project .card-wrapper .card h3 {

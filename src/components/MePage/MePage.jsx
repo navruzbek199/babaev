@@ -10,7 +10,7 @@ import flag5 from '../../assets/images/Uzbekistan.png';
 import dots from '../../assets/images/dots.png';
 const MePage = () => {
 	return (
-		<div className='me_page'>
+		<div className='me_page3'>
 			<div className='container'>
 				<div className='about_bro'>
 					<div className='about_left'>
