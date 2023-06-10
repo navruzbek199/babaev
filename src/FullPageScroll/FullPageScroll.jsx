@@ -23,7 +23,13 @@ const FullPageScroll = () => {
                                         <FullpageSection style={{ height: "100vh" }}>
                                                 <About/>
                                         </FullpageSection>
-                                        <FullpageSection>
+                                        <FullpageSection style={{ height: "100vh" }}>
+                                                <Service/>
+                                        </FullpageSection>
+                                        <FullpageSection style={{ height: "100vh" }}>
+                                                <Project/>
+                                        </FullpageSection>
+                                        <FullpageSection style={{ height: "100vh" }} >
                                                 <MePage/>
                                         </FullpageSection>
                                         <FullpageSection style={{ height: "100vh" }}>
@@ -32,12 +38,7 @@ const FullPageScroll = () => {
                                         <FullpageSection style={{ height: "100vh" }}>
                                                 <Certificat/>
                                         </FullpageSection>
-                                        <FullpageSection style={{ height: "100vh" }}>
-                                                <Service/>
-                                        </FullpageSection>
-                                        <FullpageSection style={{ height: "100vh" }}>
-                                                <Project/>
-                                        </FullpageSection>
+
                                         <FullpageSection style={{ height: "100vh" }}>
                                                 <Contacts/>
                                         </FullpageSection>
