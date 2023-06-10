@@ -1,22 +1,22 @@
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import ser1 from '../../assets/images/sertificat1.png';
-import ser2 from '../../assets/images/sertificat2.png';
-import ser3 from '../../assets/images/sertificat3.png';
-import ser4 from '../../assets/images/sertificat4.png';
-import ser5 from '../../assets/images/sertificat5.png';
-import ser6 from '../../assets/images/sertificat6.png';
-import ser7 from '../../assets/images/sertificat7.png';
-import ser8 from '../../assets/images/sertificat8.png';
-import ser9 from '../../assets/images/sertificat9.png';
-import ser10 from '../../assets/images/sertificat10.png';
-import ser11 from '../../assets/images/sertificat11.png';
-import ser12 from '../../assets/images/sertificat12.png';
-import ser13 from '../../assets/images/sertificat13.png';
-import ser14 from '../../assets/images/sertificat14.png';
-import ser15 from '../../assets/images/sertificat15.png';
-import ser16 from '../../assets/images/sertificat16.png';
+import ser1 from '../../assets/images/sertificat1.svg';
+import ser2 from '../../assets/images/sertificat2.svg';
+import ser3 from '../../assets/images/sertificat3.svg';
+import ser4 from '../../assets/images/sertificat4.svg';
+import ser5 from '../../assets/images/sertificat5.svg';
+import ser6 from '../../assets/images/sertificat6.svg';
+import ser7 from '../../assets/images/sertificat7.svg';
+import ser8 from '../../assets/images/sertificat8.svg';
+import ser9 from '../../assets/images/sertificat9.svg';
+import ser10 from '../../assets/images/sertificat10.svg';
+import ser11 from '../../assets/images/sertificat11.svg';
+import ser12 from '../../assets/images/sertificat12.svg';
+import ser13 from '../../assets/images/sertificat13.svg';
+import ser14 from '../../assets/images/sertificat14.svg';
+import ser15 from '../../assets/images/sertificat15.svg';
+import ser16 from '../../assets/images/sertificat16.svg';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';

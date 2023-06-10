@@ -361,7 +361,8 @@ color: #CDCDCD;
     }
     .about_lang{
         display: flex !important;
-        justify-content: space-between !important;
+        gap: 12px;
+        justify-content: flex-start !important;
     }
     .lang_box{
         div{
