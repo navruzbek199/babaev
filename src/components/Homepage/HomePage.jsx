@@ -61,7 +61,7 @@ function HomePage() {
                         <h1 className='animate__animated animate__slideInLeft '>Jurabek Babaev</h1>
                         <span>Предприниматель, маркетолог, <br /> тревел эксперт, учитель</span>
                         <div className="btn_homes">
-                            <a href='https://t.me/navruz_web' className='btn white'>Обсудить проект</a>
+                            <a href='https://t.me/@Albukhary' className='btn white'>Обсудить проект</a>
                         </div>
                     </div>
                     <div className="right animate__animated animate__slideInRight">
