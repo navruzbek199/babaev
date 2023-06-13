@@ -39,7 +39,7 @@ const ServiseCarousel = () => {
                         <div className='card_box'>
                             <div className='card-wrapper'>
                                 <div className='card'>
-                                    <div className='main-title'>
+                                    <div className='main-title service_img'>
                                         <img src={juba} alt='satrolab tizimi' />
                                     </div>
                                     <h3>Туризм</h3>
@@ -59,7 +59,7 @@ const ServiseCarousel = () => {
                         <div className='card_box'>
                             <div className='card-wrapper'>
                                 <div className='card'>
-                                    <div className='main-title'>
+                                    <div className='main-title service_img'>
                                         <img src={ziyorat} alt='satrolab tizimi' />
                                     </div>
                                     <h3>Маркетинг</h3>
@@ -80,7 +80,7 @@ const ServiseCarousel = () => {
                             <div className=''>
                                 <div className='card-wrapper'>
                                     <div className='card'>
-                                        <div className='main-title'>
+                                        <div className='main-title service_img'>
                                             <img src={service} alt='satrolab tizimi' />
                                         </div>
                                         <h3>IT</h3>
@@ -102,7 +102,7 @@ const ServiseCarousel = () => {
                             <div className=''>
                                 <div className='card-wrapper'>
                                     <div className='card'>
-                                        <div className='main-title'>
+                                        <div className='main-title service_img'>
                                             <img src={renova} alt='satrolab tizimi' />
                                         </div>
                                         <h3>Строительство</h3>
@@ -124,7 +124,7 @@ const ServiseCarousel = () => {
                             <div className=''>
                                 <div className='card-wrapper'>
                                     <div className='card'>
-                                        <div className='main-title'>
+                                        <div className='main-title service_img'>
                                             <img src={alzar} alt='satrolab tizimi' />
                                         </div>
                                         <h3>Zargarlik</h3>

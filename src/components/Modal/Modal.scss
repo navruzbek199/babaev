@@ -94,13 +94,13 @@
     position: relative;
 
     div {
-        width: 390px;
-        height: 390px;
+        width: 100%;
+        height: 100%;
         position: absolute;
         right: 0;
         bottom: 0;
         background-position-x: -50px;
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         border-bottom-right-radius: 40px;

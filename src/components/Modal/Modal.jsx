@@ -9,6 +9,7 @@ export const Modal = () => {
 
     // clearInterval()
     useEffect(() => {
+
         let intervalId =  setTimeout(() => {
             setModal(true)
         }, 10000);

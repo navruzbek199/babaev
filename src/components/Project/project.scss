@@ -44,7 +44,7 @@
     .card-wrapper{
         display: flex;
         justify-content: space-evenly;
-        padding-top: 30px;
+        padding-top: 23px;
         @media (max-width: 500px) {
             padding-top: 0px;
             
@@ -54,8 +54,8 @@
             border: 1px solid #FAFAFA;
             backdrop-filter: blur(40px);
             border-radius: 30px;
-            height: 300px;
-            padding: 48px 0;
+            height: 37vh;
+            padding: 32px 0;
             align-items: center;
             width: 100%;
             @media (max-width: 500px) {
@@ -70,7 +70,9 @@
                 align-items: center;
                 justify-content: center;
                 margin-bottom: 27px;
+                // height: 100px !important;
                 img{
+                    height: 100%;
                     width: 110px;
                     object-fit: contain;
                     @media (max-width: 500px) {

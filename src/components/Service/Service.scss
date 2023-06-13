@@ -48,17 +48,18 @@
             padding: 26px 30px;
             height: 500px;
 
-            .main-title {
+            .main-title,.service_img {
                 background: #FAFAFA;
                 border-radius: 30px;
-                height: 218px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
+                height: 154px ;
+                display: flex ;
+                align-items: center ;
+                justify-content: center  ;
                 margin-bottom: 19px;
 
                 img {
                     width: 200px;
+                    // height: 200px;
                     padding: 12px;
                 }
             }
@@ -76,8 +77,8 @@
                 font-family: 'Montserrat';
                 font-style: normal;
                 font-weight: 300;
-                font-size: 17px;
-                line-height: 22px;
+                font-size: 14px;
+                line-height: 20px;
                 color: #FFFFFF;
                 margin-top: 10px;
                 margin-bottom: 22px;
@@ -114,6 +115,17 @@
             }
         }
     }
+}
+.service_img {
+    background: #FAFAFA;
+    border-radius: 30px;
+    display: block ;
+    height: 154px ;
+    align-items: center ;
+    justify-content: center ;
+    margin-bottom: 19px ;
+
+
 }
 
 @media screen and (max-width:1200px) {

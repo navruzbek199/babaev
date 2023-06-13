@@ -1,13 +1,14 @@
 .me_page3{
     background-image: url('../../assets/images/background-2.jpg');
-    height: 100vh;
+    min-height: 100vh;
+
     width: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     display: grid;
-    place-items: flex-start;
+    place-items: center;
     padding-top: 15px;
 }
 .about_bro{
@@ -20,31 +21,28 @@
     width: 50%;
     .bro_img{
         width: 100%;
-        object-fit: contain;
-height: 460px;
+        object-fit: contain !important;
+height: 350px !important;
     }
     .left_in{
         display: flex;
 flex-direction: row;
 align-items: flex-start;
-padding: 31px 25px;
-gap: 10px;
+padding: 9px 25px !important;
 width: 100%;
-height: 106px;
+height: 58px !important;
 background: rgba(217, 217, 217, 0.3);
 border-radius: 40px;
-margin-bottom: 22px;
+margin-bottom: 18px;
 p{
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
-font-size: 36px;
-line-height: 44px;
+font-size: 25px !important;
+line-height: 24px;
 text-align: center;
 color: #CDCDCD;
-flex: none;
-order: 0;
-flex-grow: 0;
+
 }
     }
 }
@@ -58,21 +56,22 @@ flex-grow: 0;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
-font-size: 68px;
-line-height: 98px;
-width: auto;
+font-size: 62px;
+line-height: 68px;
+width: 100%;
+
 color: #FFFFFF;
 margin-top: 20px;
-margin-bottom: 52px;
+margin-bottom: 32px;
     }
     p{
-        margin-bottom: 164px;
+        margin-bottom: 40px;
         width: 100%;
 
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
-font-size: 32px;
+font-size: 24px;
 line-height: 39px;
 color: #CDCDCD;
     }
@@ -80,17 +79,17 @@ color: #CDCDCD;
     ul{
         list-style: none;
         width: 100%;
-height: 390px;
+height: auto;
 background: rgba(217, 217, 217, 0.3);
 border-radius: 40px;
-padding: 26px 38px;
+padding: 20px 30px;
 li{
 margin-top: 10px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
 width: 100%;
-font-size: 24px;
+font-size: 16px;
 line-height: 29px;
 color: #CDCDCD;
 }
@@ -116,7 +115,7 @@ color: #CDCDCD;
             font-family: 'Bookman Old Style';
 font-style: normal;
 font-weight: 300;
-font-size: 35px;
+font-size: 25px;
 height: auto;
 letter-spacing: 0.065em;
 color: #FFFFFF;
@@ -129,8 +128,152 @@ margin-bottom: 0 !important;
         }
     }
     .mydots{
-        width: 150px;
+        display: none;
+        width: 140px ;
         object-fit: cover;
+    }
+}
+@media screen and (max-width:1384px) {
+
+    .about_left{
+        width: 50%;
+        .bro_img{
+            width: 100%;
+            object-fit: cover;
+    height: 460px;
+        }
+        .left_in{
+            padding: 31px 15px;
+    gap: 10px;
+    width: 100%;
+    height: 100px;
+  
+    margin-bottom: 24px;
+    p{
+    font-size: 30px;
+    line-height: 44px;
+ 
+    }
+        }}
+    
+}
+@media screen and (max-width:1209px) {
+    .about_left{
+        width: 50%;
+        .bro_img{
+            width: 100%;
+            object-fit: contain;
+    height: 460px;
+        }
+        .left_in{
+            display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 31px 25px;
+    gap: 10px;
+    width: 100%;
+    height: 106px;
+    background: rgba(217, 217, 217, 0.3);
+    border-radius: 40px;
+    margin-bottom: 22px;
+    p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #CDCDCD;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+        }
+    }
+    
+    .about_right{
+        width: 47%;
+        
+        h2{
+            // width: 64px;
+            
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 68px;
+    line-height: 98px;
+    width: auto;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 52px;
+        }
+        p{
+            margin-bottom: 164px;
+            width: 100%;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #CDCDCD;
+        }
+    
+        ul{
+            list-style: none;
+            width: 100%;
+    height: 390px;
+    background: rgba(217, 217, 217, 0.3);
+    border-radius: 40px;
+    padding: 26px 38px;
+    li{
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    width: 100%;
+    font-size: 24px;
+    line-height: 29px;
+    color: #CDCDCD;
+    }
+        }
+    }
+    .about_lang{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        // scroll-behavior: smooth;
+        // overflow-x: scroll;
+    }
+    .lang_box{
+        display: flex;
+        flex-direction: column;
+        div{
+            display: flex;
+            align-items: center;
+            // justify-content: center;
+            gap: 3px;
+            margin-bottom: 3px;
+            p{
+                font-family: 'Bookman Old Style';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    height: auto;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    margin-bottom: 0 !important;
+    }
+            img{
+                display: block;
+                height: 27px;
+                width: 36px;
+            }
+        }
+        .mydots{
+            width: 150px;
+            object-fit: cover;
+        }
     }
 }
 @media screen and (max-width:999px) {
@@ -162,30 +305,7 @@ margin-bottom: 0 !important;
     }
 }
 
-@media screen and (max-width:1384px) {
 
-    .about_left{
-        width: 50%;
-        .bro_img{
-            width: 100%;
-            object-fit: cover;
-    height: 460px;
-        }
-        .left_in{
-            padding: 31px 15px;
-    gap: 10px;
-    width: 100%;
-    height: 100px;
-  
-    margin-bottom: 24px;
-    p{
-    font-size: 30px;
-    line-height: 44px;
- 
-    }
-        }}
-    
-}
 @media screen and (max-width:999px) {
     .about_bro{
       
@@ -303,13 +423,13 @@ color: #CDCDCD;
         }
     
         .left_in{
-    padding: 21px 15px;
-    gap: 10px;
-    height: 40px;
+    padding: 21px 15px !important;
+   
+    height: 40px !important;
     margin-bottom: 14px;
     p{
         width: 100%;
-    font-size: 18px;
+    font-size: 18px !important;
     line-height: 0px;
  
     }
@@ -341,16 +461,16 @@ color: #CDCDCD;
 @media screen and (max-width:500px) {
     .about_left{
         .bro_img{
-            object-fit: contain;
-    height: 190px;
+            object-fit: contain !important;
+    height: 190px !important;
         }}
     .mobile_name{
         display: flex;
             p{
-            font-weight: 600;
+            font-weight: 600!important;
             font-size: 22px;
-            line-height: 39px;
-            height: 27px;
+            line-height: 39px!important;
+            height: 27px!important;
             }
     }
     .about_lang{
