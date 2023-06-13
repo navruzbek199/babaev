@@ -58,7 +58,7 @@ const About = () => {
                     </ul>
                 </div>
                 <div className="btn_homes">
-                    <a href='https://t.me/@Albukhary' className='btn white'>Обсудить проект</a>
+                    <a href='https://t.me/@Albukhary' target='_blank' className='btn white'>Обсудить проект</a>
                 </div>
             </div>
         </div>

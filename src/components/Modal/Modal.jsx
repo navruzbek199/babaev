@@ -48,7 +48,7 @@ export const Modal = () => {
 </p>
 <p>
 Напишите нам и мы с вами свяжемся, выслушаем ваши вопросы/задачи и предложим свои варианты решения.</p>
-<a href='https://t.me/@Albukhary'>Обсудить проект</a>
+<a href='https://t.me/@Albukhary' target='_blank'>Обсудить проект</a>
             </div>
             <div className="modal_right">
 <div></div>

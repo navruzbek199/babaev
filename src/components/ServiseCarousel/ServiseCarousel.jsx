@@ -47,7 +47,7 @@ const ServiseCarousel = () => {
                                         Предлагаем уникальные туристические пакеты и программы для незабываемых путешествий с высоким уровнем комфорта и безопасности. Откройте новые горизонты вместе с нами!
                                     </p>
                                     <div className='buttons-wrapper'>
-                                        <a href='https://ziyorattour.uz/' className='btn yellow '>Входить</a>
+                                        <a href='https://ziyorattour.uz/' target='_blank' className='btn yellow '>Входить</a>
                                     </div>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@ const ServiseCarousel = () => {
                                      Cоздаем эффективные стратегии в социальных медиа для увеличения вашей онлайн-видимости и привлечения новых клиентов, чтобы ваш бренд достигал успеха и признания.
                                     </p>
                                     <div className='buttons-wrapper'>
-                                        <a href='https://juba.uz/' className='btn yellow '>Входить</a>
+                                        <a href='https://juba.uz/' target='_blank' className='btn yellow '>Входить</a>
                                     </div>
                                 </div>
                             </div>
@@ -88,7 +88,7 @@ const ServiseCarousel = () => {
                                             Cоздаем инновационное программное обеспечение, веб- и мобильные приложения, а также предлагаем услуги по автоматизации бизнес-процессов для вашего успеха в цифровой эпохе.
                                         </p>
                                         <div className='buttons-wrapper'>
-                                            <a href='https://tizim.astrolab.uz/' className='btn yellow '>Входить</a>
+                                            <a href='https://tizim.astrolab.uz/' target='_blank' className='btn yellow '>Входить</a>
                                         </div>
                                     </div>
                                 </div>
@@ -110,7 +110,7 @@ const ServiseCarousel = () => {
                                              Cтроительствo государственных объектов, гарантируем надежные сооружения в соответствии с высокими стандартами качества и сроками, работаем с государственными заказчиками.
                                         </p>
                                         <div className='buttons-wrapper'>
-                                            <a href='https://renova.uz/' className='btn yellow '>Входить</a>
+                                            <a href='https://renova.uz/' target='_blank' className='btn yellow '>Входить</a>
                                         </div>
                                     </div>
                                 </div>
@@ -118,29 +118,7 @@ const ServiseCarousel = () => {
                         </div>
                     </div>
                 </SwiperSlide>
-                {/* <SwiperSlide>
-                    <div className="card_item">
-                        <div className='card_box '>
-                            <div className=''>
-                                <div className='card-wrapper'>
-                                    <div className='card'>
-                                        <div className='main-title service_img'>
-                                            <img src={alzar} alt='satrolab tizimi' />
-                                        </div>
-                                        <h3>Zargarlik</h3>
-                                        <p>
-                                            Nazorat tizimi xodimlarning ishga kelish davomati va foydali
-                                            ish koeffitsiyentini hisoblashda juda samarali vosita!
-                                        </p>
-                                        <div className='buttons-wrapper'>
-                                            <a href='https://alzargar.uz/' className='btn yellow '>Visit</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </SwiperSlide> */}
+   
             </Swiper>
         </div>
     )
