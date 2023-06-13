@@ -59,9 +59,9 @@ function Contacts() {
                             <img src={email} alt="" />
                             <div className='text'>
                                 <h4>ЭЛЕКТРОННАЯ ПОЧТА</h4>
-                                <span>
+                            <a href="mailto:info@astrolab.uz" target='_blank'>    <span>
                                     info@astrolab.uz
-                                </span>
+                                </span></a>
                             </div>
                         </li>
                     </ul>
